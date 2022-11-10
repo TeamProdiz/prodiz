@@ -3,7 +3,7 @@
         @include helper-effect-transition(background-color border-color color);
         background-color: $setting-color-main;
         border: solid 1px $setting-color-main;
-        border-radius: $setting-border-radius;
+        border-radius: 4px;
         color: $setting-color-white;
         font-size: rem(14);
         font-weight: fw(medium);
