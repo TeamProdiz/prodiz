@@ -102,6 +102,16 @@ groups:
                 endpoints:
                     glue.prodiz-staging.cloud.spryker.toys:
                         store: DE
+            mportal:
+                application: merchant-portal
+                endpoints:
+                    mp.prodiz-staging.cloud.spryker.toys:
+                        entry-point: MerchantPortal
+                        store: DE
+                        primal: true
+                        services:
+                            session:
+                                namespace: 7
 services:
     database:
         engine: mysql
