@@ -1,7 +1,7 @@
 category_key,parent_category_key,name.de_DE,meta_title.de_DE,meta_description.de_DE,meta_keywords.de_DE,is_active,is_in_menu,is_clickable,is_searchable,is_root,is_main,node_order,template_name,name.en_US,meta_title.en_US,meta_description.en_US,meta_keywords.en_US,name.fr_FR,meta_title.fr_FR,meta_description.fr_FR,meta_keywords.fr_FR
 prodizshop,,Prodizshop,Prodizshop,Prodizshop,Prodizshop,1,1,1,0,1,1,,Catalog (default),Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop
 PRO_1,prodizshop,Essen,Essen,Essen,Essen,1,1,1,1,0,1,40,Catalog + Slots,Eating,Eating,Eating,Eating,Alimentaire,Alimentaire,Alimentaire,Alimentaire
-PRO_2,prodizshop,Boisson et Spiritueux,Getränke und Spirituosen,Getränke und Spirituosen,Getränke und Spirituosen,1,1,1,1,0,1,20,Catalog + Slots,Beverage & Spirits,Beverage & Spirits,Beverage & Spirits,Beverage & Spirits,Boisson et Spiritueux,Boisson & Spiritueux,Boisson & Spiritueux,Boisson et Spiritueux
+PRO_2,prodizshop,Getränke und Spirituosen,Getränke und Spirituosen,Getränke und Spirituosen,Getränke und Spirituosen,1,1,1,1,0,1,20,Catalog + Slots,Beverage & Spirits,Beverage & Spirits,Beverage & Spirits,Beverage & Spirits,Boisson et Spiritueux,Boisson & Spiritueux,Boisson & Spiritueux,Boisson et Spiritueux
 PRO_3,prodizshop,Verbrauchsmaterial,Verbrauchsmaterial,Verbrauchsmaterial,Verbrauchsmaterial,1,1,1,1,0,1,30,Catalog + Slots,Consumable,Consumable,Consumable,Consumable,Consommable,Consommable,Consommable,Consommable
 PRO_11,PRO_1,Früchte,Früchte,Früchte,Früchte,1,1,1,1,0,1,20,Catalog + Slots,Fruits,Fruits,Fruits,Fruits,Fruits,Fruits,Fruits,Fruits
 PRO_12,PRO_1,Gemüse,Gemüse,Gemüse,Gemüse,1,1,1,1,0,1,10,Catalog + Slots,Vegetables,Vegetables,Vegetables,Vegetables,Légumes,Légumes,Légumes,Légumes

@@ -34,7 +34,6 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
             // first entry is default
             'fr' => 'fr_FR',
             'en' => 'en_US',
-            'de' => 'de_DE',
         ],
         // first entry is default
         'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
@@ -123,7 +122,6 @@ $stores['DE'] = [
         // first entry is default
         'fr' => 'fr_FR',
         'en' => 'en_US',
-        'de' => 'de_DE',
     ],
     // first entry is default
     'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
