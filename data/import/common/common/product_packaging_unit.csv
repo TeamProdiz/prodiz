@@ -3,3 +3,7 @@ concrete_sku,lead_product_sku,packaging_unit_type_name,default_amount,is_amount_
 421519_1,421519_1,packaging_unit_type.pack_5.name,5,0,,,
 421519_2,421519_1,packaging_unit_type.pack_10.name,10,0,,,
 421519_3,421519_1,packaging_unit_type.box.name,15,1,10,50,5
+421519_4,421519_4,packaging_unit_type.kilo.name,1,1,,,0.1
+,,,,,,,
+,,,,,,,
+,,,,,,,
