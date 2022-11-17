@@ -177,3 +177,13 @@ if (Config::get(MessageBrokerAwsConstants::SQS_RECEIVER_CONFIG)) {
         'stores' => $allStores,
     ];
 }
+
+/* Data import */
+
+$jobs[] = [
+    'name' => 'all-data-import',
+    'command' => '$PHP_BIN vendor/bin/console data:import',
+    'schedule' => '*/5 * * * *',
+    'enable' => true,
+    'stores' => $allStores,
+];
