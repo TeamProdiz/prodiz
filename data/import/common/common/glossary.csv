@@ -2198,71 +2198,71 @@ product_quick_add_widget.form.error.redirect_route_empty,Redirect Router kann ni
 product_quick_add_widget.form.error.sku.empty,SKU should not be empty,en_US
 product_quick_add_widget.form.error.sku.empty,SKU kann nicht leer sein,fr_FR
 customer.account.shopping_list.overview.add_shopping_list_to_cart,Add selected to,en_US
-customer.account.shopping_list.overview.add_shopping_list_to_cart,Hinzufügen zu,fr_FR
+customer.account.shopping_list.overview.add_shopping_list_to_cart,Ajouté la sélection à,fr_FR
 customer.account.shopping_list.items.added_to_cart.failed,Some items were not added to cart.,en_US
-customer.account.shopping_list.items.added_to_cart.failed,Einige Artikel konnten nicht in den Warenkorb gelegt werden.,fr_FR
+customer.account.shopping_list.items.added_to_cart.failed,Certains article n'ont pas été ajouté au panier.,fr_FR
 customer.account.shopping_list.items.added_to_cart,Items added to cart successfully.,en_US
-customer.account.shopping_list.items.added_to_cart,Produkte erfolgreich in den Warenkorb gelegen.,fr_FR
+customer.account.shopping_list.items.added_to_cart,Articles bien ajoutés au panier.,fr_FR
 customer.account.shopping_list.add_selected_items_to_cart,Add selected items to cart,en_US
-customer.account.shopping_list.add_selected_items_to_cart,Ausgewählte Artikel zum Warenkorb hinzufügen,fr_FR
+customer.account.shopping_list.add_selected_items_to_cart,Ajouter articles au panier,fr_FR
 customer.account.shopping_list.share.select_company_user,Select customer,en_US
-customer.account.shopping_list.share.select_company_user,Benutzer auswählen,fr_FR
+customer.account.shopping_list.share.select_company_user,Sélectionner utilisateur,fr_FR
 customer.account.shopping_list.share.select_company_business_unit,Select business unit,en_US
-customer.account.shopping_list.share.select_company_business_unit,Unité commerciale auswählen,fr_FR
+customer.account.shopping_list.share.select_company_business_unit,Sélectionner Unité commerciale,fr_FR
 customer.account.shopping_list.share.select_permission,Select access level,en_US
-customer.account.shopping_list.share.select_permission,Wählen Sie die Zugriffsebene aus,fr_FR
+customer.account.shopping_list.share.select_permission,Sélectionner le niveau d'accès,fr_FR
 customer.account.shopping_list.share.error.one_id_required,Please choose either customer or business unit to share the shopping list with,en_US
-customer.account.shopping_list.share.error.one_id_required,"Bitte wählen Sie entweder einen Kunden oder eine Unité commerciale aus, mit welchem Sie die Einkaufsliste teilen möchten.",fr_FR
+customer.account.shopping_list.share.error.one_id_required,Veuillez choisir le client ou l'unité commerciale avec qui partager la liste de courses,fr_FR
 customer.account.shopping_list.share.share_shopping_list_successful,Sharing shopping list was successful,en_US
-customer.account.shopping_list.share.share_shopping_list_successful,Einkaufsliste wurde erfolgreich geteilt,fr_FR
+customer.account.shopping_list.share.share_shopping_list_successful,Le partage de la liste de courses a réussi,fr_FR
 customer.account.shopping_list.share.share_shopping_list_fail,This shopping list has been shared before with this entity,en_US
-customer.account.shopping_list.share.share_shopping_list_fail,Diese Einkaufsliste wurde bereits mit dieser Entität geteilt,fr_FR
+customer.account.shopping_list.share.share_shopping_list_fail,Cette liste de courses a déjà été partagée avec cette entité,fr_FR
 customer.account.shopping_list.overview.owner,Owner,en_US
-customer.account.shopping_list.overview.owner,Eigentümer,fr_FR
+customer.account.shopping_list.overview.owner,Propriétaire,fr_FR
 customer.account.shopping_list.error.duplicate_name,A shopping list with the same name already exists.,en_US
-customer.account.shopping_list.error.duplicate_name,Eine Einkaufsliste mit dem selben Namen existiert bereits.,fr_FR
+customer.account.shopping_list.error.duplicate_name,Une liste de courses du même nom existe déjà.,fr_FR
 customer.account.shopping_list.error.cannot_update,Cannot update shopping list.,en_US
-customer.account.shopping_list.error.cannot_update,Die Liste konnte nicht aktualisiert werden.,fr_FR
+customer.account.shopping_list.error.cannot_update,Impossible de mettre à jour la liste de courses.,fr_FR
 customer.account.shopping_list.share.choose_access,Choose access,en_US
-customer.account.shopping_list.share.choose_access,Zugang wählen,fr_FR
+customer.account.shopping_list.share.choose_access,Choisissez l'accès,fr_FR
 packaging_unit_type.item.name,Item,en_US
-packaging_unit_type.item.name,Stück,fr_FR
+packaging_unit_type.item.name,Article,fr_FR
 packaging_unit_type.ring_500.name,Ring (500m),en_US
-packaging_unit_type.ring_500.name,Ring (500m),fr_FR
+packaging_unit_type.ring_500.name,Anneau (500m),fr_FR
 packaging_unit_type.box.name,Box,en_US
-packaging_unit_type.box.name,Box,fr_FR
+packaging_unit_type.box.name,Boite,fr_FR
 packaging_unit_type.palette.name,Palette,en_US
 packaging_unit_type.palette.name,Palette,fr_FR
 packaging_unit_type.giftbox.name,Giftbox,en_US
-packaging_unit_type.giftbox.name,Geschenkbox,fr_FR
+packaging_unit_type.giftbox.name,Boite cadeau,fr_FR
 packaging_unit_type.valentines_special.name,Valentine's special,en_US
-packaging_unit_type.valentines_special.name,Valentinstag Geschenkbox,fr_FR
+packaging_unit_type.valentines_special.name,Spécial St Valentin,fr_FR
 packaging_unit_type.pack_5.name,Pack 5,en_US
 packaging_unit_type.pack_5.name,Pack 5,fr_FR
 packaging_unit_type.pack_10.name,Pack 10,en_US
 packaging_unit_type.pack_10.name,Pack 10,fr_FR
 business_on_behalf_widget.no_selected_company,Your Business Unit,en_US
-business_on_behalf_widget.no_selected_company,Ihre Unité commerciale,fr_FR
+business_on_behalf_widget.no_selected_company,Votre Unité commerciale,fr_FR
 business_on_behalf_widget.change_company_user,Select Business Unit,en_US
-business_on_behalf_widget.change_company_user,Unité commerciale auswählen,fr_FR
+business_on_behalf_widget.change_company_user,Sélectionner une Unité commerciale,fr_FR
 company_user.business_on_behalf.error.company_not_active,"You can not select this company user, company is not active.",en_US
-company_user.business_on_behalf.error.company_not_active,Sie können diesen Firmennutzer nicht auswählen da die Firma inaktiv ist,fr_FR
+company_user.business_on_behalf.error.company_not_active,"Vous ne pouvez pas sélectionner cet utilisateur de l'entreprise, l'entreprise n'est pas active.",fr_FR
 company_user.business_on_behalf.error.company_user_invalid,"You can not select this company user, it is invalid.",en_US
-company_user.business_on_behalf.error.company_user_invalid,Sie können diesen Firmennutzer nicht auswählen da er ungültig ist,fr_FR
+company_user.business_on_behalf.error.company_user_invalid,"Vous ne pouvez pas sélectionner cet utilisateur de l'entreprise, il n'est pas valide.",fr_FR
 company_user.change_company_user,Select Business Unit,en_US
-company_user.change_company_user,Unité commerciale auswählen,fr_FR
+company_user.change_company_user,Sélectionner une Unité commerciale,fr_FR
 company_user.no_company,No Business Unit,en_US
-company_user.no_company,Keine Unité commerciale,fr_FR
+company_user.no_company,Aucune Unité commerciale,fr_FR
 company_user.company_choice,Business Unit,en_US
 company_user.company_choice,Unité commerciale,fr_FR
 company_user.remember_choice,Remember choice,en_US
-company_user.remember_choice,Auswahl speichern,fr_FR
+company_user.remember_choice,Rappelez-vous le choix,fr_FR
 company_page.company_user_restricted_message,Regular customers are not allowed to operate on company pages,en_US
-company_page.company_user_restricted_message,Normale Kunden dürfen keinen Zugang zu den Unternehmensseiten habe,fr_FR
+company_page.company_user_restricted_message,Les clients réguliers ne sont pas autorisés à opérer sur les pages de l'entreprise,fr_FR
 company_page.company_business_unit_restricted_message,You don't have permissions to perform this operation,en_US
-company_page.company_business_unit_restricted_message,Sie haben nicht die notwendigen Rechte um diesen Vorgang auszuführen,fr_FR
+company_page.company_business_unit_restricted_message,Vous n'êtes pas autorisé à effectuer cette opération,fr_FR
 customer.account.print_shopping_list.table.barcode,Barcode,en_US
-customer.account.print_shopping_list.table.barcode,Barcode,fr_FR
+customer.account.print_shopping_list.table.barcode,Code barre,fr_FR
 customer.account.print_shopping_list.table.product_sku,Product SKU,en_US
 customer.account.print_shopping_list.table.product_sku,SKU produit,fr_FR
 customer.account.print_shopping_list.table.product_name,Product name,en_US
@@ -2578,7 +2578,7 @@ agent.autocomplete.no_results,Aucun résultat,fr_FR
 autocomplete.placeholder,Search,en_US
 autocomplete.placeholder,Recherche,fr_FR
 bundle.title,Bundle includes,en_US
-bundle.title,Le forfait comprend,fr_FR
+bundle.title,Le groupe comprend,fr_FR
 This value should not be blank.,Cette valeur ne doit pas être vide.,fr_FR
 This field should contain exactly 5 digits.,Ce champs doit contenir exactement 5 numéros.,fr_FR
 This value is not valid (accepted format e.g.: 12c).,Cette valeur n'est pas valide (format accepté ex.: 12c).,fr_FR
@@ -3140,88 +3140,88 @@ comment_widget.tags.delivery,Livraison,fr_FR
 comment_widget.tags.important,Important,en_US
 comment_widget.tags.important,Important,fr_FR
 comment_widget.error_message.unexpected_error,Unexpected error occurred.,en_US
-comment_widget.error_message.unexpected_error,Ein unerwarteter Fehler aufgetreten.,fr_FR
-general.next.button,Weiter,fr_FR
+comment_widget.error_message.unexpected_error,Une erreur inattendu s'est produite.,fr_FR
+general.next.button,Suivant,fr_FR
 shipment.validation.not_found,Shipment method not found.,en_US
-shipment.validation.not_found,Versandart nicht gefunden.,fr_FR
+shipment.validation.not_found,Méthode d'envois introuvable.,fr_FR
 billing.address.validation.is_missing,Billing address is missing,en_US
-billing.address.validation.is_missing,Rechnungsadresse fehlt,fr_FR
+billing.address.validation.is_missing,Adresse de facturation manquante,fr_FR
 billing.address.country.validation.not_found,Billing address country not found for country code: %code%,en_US
-billing.address.country.validation.not_found,Rechnungsadresse Land für Ländercode nicht gefunden: %code%,fr_FR
+billing.address.country.validation.not_found,Pays de l'adresse de facturation introuvable pour le code pays : %code%,fr_FR
 shipping.address.country.validation.not_found,Shipping address country not found for country code: %code%,en_US
-shipping.address.country.validation.not_found,Lieferadresse Land für Ländercode nicht gefunden: %code%,fr_FR
+shipping.address.country.validation.not_found,Pays de l'adresse de livraison introuvable pour le code pays : %code%,fr_FR
 product_search_widget.search.product_discontinued_prefix,[Discontinued],en_US
 product_search_widget.search.product_discontinued_prefix,[Interrompu],fr_FR
 configurable_bundle.template.name.1,Office bundle,en_US
-configurable_bundle.template.name.1,Office-Bundle,fr_FR
+configurable_bundle.template.name.1,Ensemble de bureau,fr_FR
 configurable_bundle.template.name.2,Presentation bundle,en_US
-configurable_bundle.template.name.2,Präsentations-Bundle,fr_FR
+configurable_bundle.template.name.2,Ensemble de présentation,fr_FR
 configurable_bundle.template_slots.slot-1.name,Slot 1,en_US
-configurable_bundle.template_slots.slot-1.name,Slot 1,fr_FR
+configurable_bundle.template_slots.slot-1.name,Emplacement 1,fr_FR
 configurable_bundle.template_slots.slot-2.name,Slot 2,en_US
-configurable_bundle.template_slots.slot-2.name,Slot 2,fr_FR
+configurable_bundle.template_slots.slot-2.name,Emplacement 2,fr_FR
 configurable_bundle.template_slots.slot-3.name,Slot 3,en_US
-configurable_bundle.template_slots.slot-3.name,Slot 3,fr_FR
+configurable_bundle.template_slots.slot-3.name,Emplacement 3,fr_FR
 configurable_bundle.template_slots.slot-4.name,Slot 4,en_US
-configurable_bundle.template_slots.slot-4.name,Slot 4,fr_FR
+configurable_bundle.template_slots.slot-4.name,Emplacement 4,fr_FR
 configurable_bundle.template_slots.slot-5.name,Slot 5,en_US
-configurable_bundle.template_slots.slot-5.name,Slot 5,fr_FR
+configurable_bundle.template_slots.slot-5.name,Emplacement 5,fr_FR
 configurable_bundle.template_slots.slot-6.name,Slot 6,en_US
-configurable_bundle.template_slots.slot-6.name,Slot 6,fr_FR
+configurable_bundle.template_slots.slot-6.name,Emplacement 6,fr_FR
 configurable_bundle.template.validation.error.not_exists,Configurable bundle template does not exist.,en_US
-configurable_bundle.template.validation.error.not_exists,Vorlage des konfigurierbaren Bündels existiert nicht.,fr_FR
+configurable_bundle.template.validation.error.not_exists,Le modèle de groupe configurable n'existe pas.,fr_FR
 configurable_bundle.slot.validation.error.not_exists,Configurable bundle template slot does not exist.,en_US
-configurable_bundle.slot.validation.error.not_exists,Vorlagenslot des konfigurierbaren Bündels existiert nicht.,fr_FR
+configurable_bundle.slot.validation.error.not_exists,L'emplacement de modèle de bundle configurable n'existe pas.,fr_FR
 configurable_bundle.template.validation.error.already_activated,Configurable bundle template is already activated.,en_US
-configurable_bundle.template.validation.error.already_activated,Vorlage des konfigurierbaren Bündels wurde schon aktiviert.,fr_FR
+configurable_bundle.template.validation.error.already_activated,Le modèle de bundle configurable est déjà activé.,fr_FR
 configurable_bundle.template.validation.error.already_deactivated,Configurable bundle template is already deactivated.,en_US
-configurable_bundle.template.validation.error.already_deactivated,Vorlage des konfigurierbaren Bündels wurde schon deaktiviert.,fr_FR
+configurable_bundle.template.validation.error.already_deactivated,Le modèle de bundle configurable est déjà désactivé.,fr_FR
 configured_bundle.quantity,Quantity:,en_US
-configured_bundle.quantity,Anzahl:,fr_FR
+configured_bundle.quantity,Quantité :,fr_FR
 configured_bundle.multiplier,x,en_US
 configured_bundle.multiplier,x,fr_FR
 configured_bundle.price,Item price:,en_US
-configured_bundle.price,Stückpreis:,fr_FR
+configured_bundle.price,Prix de l'article:,fr_FR
 configured_bundle.bundle_total,Bundle total:,en_US
-configured_bundle.bundle_total,Bündel Gesamt:,fr_FR
+configured_bundle.bundle_total,Total du groupe :,fr_FR
 configured_bundle.total,Item total:,en_US
-configured_bundle.total,Artikel Gesamt:,fr_FR
+configured_bundle.total,Article total :,fr_FR
 configured_bundle.remove,remove,en_US
-configured_bundle.remove,entfernen,fr_FR
+configured_bundle.remove,retirer,fr_FR
 configured_bundle.order.items,Items in the bundle:,en_US
-configured_bundle.order.items,Produkte in diesem Bündel:,fr_FR
+configured_bundle.order.items,Article dans le groupe :,fr_FR
 configured_bundle.item_sku,SKU:,en_US
-configured_bundle.item_sku,SKU:,fr_FR
+configured_bundle.item_sku,SKU :,fr_FR
 configured_bundle_cart.error.configured_bundle_not_found,Configured bundle with provided sku not found in cart.,en_US
-configured_bundle_cart.error.configured_bundle_not_found,Konfiguriertes Bundle mit mitgelieferter SKU nicht im Warenkorb gefunden.,fr_FR
+configured_bundle_cart.error.configured_bundle_not_found,Bundle configuré avec sku fourni introuvable dans le panier.,fr_FR
 configured_bundle_cart.error.configured_bundle_cannot_be_removed,Configured bundle cannot be removed from cart.,en_US
-configured_bundle_cart.error.configured_bundle_cannot_be_removed,Das konfigurierte Bundle kann nicht aus dem Warenkorb entfernt werden.,fr_FR
+configured_bundle_cart.error.configured_bundle_cannot_be_removed,Le bundle configuré ne peut pas être supprimé du panier.,fr_FR
 configured_bundle_cart.error.configured_bundle_cannot_be_updated,Configured bundle cannot be updated.,en_US
-configured_bundle_cart.error.configured_bundle_cannot_be_updated,Konfiguriertes Bundle kann nicht aktualisiert werden.,fr_FR
+configured_bundle_cart.error.configured_bundle_cannot_be_updated,Le bundle configuré ne peut pas être mis à jour.,fr_FR
 configured_bundle_cart.error.configured_bundle_cannot_be_added,Configured bundle cannot be added to cart.,en_US
-configured_bundle_cart.error.configured_bundle_cannot_be_added,Konfigurierbares Bündel kann nicht dem Warenkorb hinzugefügt werden.,fr_FR
+configured_bundle_cart.error.configured_bundle_cannot_be_added,Le bundle configuré ne peut pas être ajouté au panier.,fr_FR
 configured_bundle_widget.configured_bundle.removed,Configured bundle removed successfully.,en_US
-configured_bundle_widget.configured_bundle.removed,Konfiguriertes Bundle erfolgreich entfernt.,fr_FR
+configured_bundle_widget.configured_bundle.removed,Le groupe configuré a été supprimé avec succès.,fr_FR
 configured_bundle_widget.configured_bundle.updated,Configured bundle updated successfully.,en_US
-configured_bundle_widget.configured_bundle.updated,Konfiguriertes Bundle a bien été mise à jour.,fr_FR
+configured_bundle_widget.configured_bundle.updated,Le bundle configuré a été mis à jour avec succès.,fr_FR
 product_search_widget.search.no_results,Products were not found.,en_US
-product_search_widget.search.no_results,Produkte wurden nicht gefunden.,fr_FR
+product_search_widget.search.no_results,Les produits n'ont pas été trouvés.,fr_FR
 configurable_bundle_page.select,Select,en_US
-configurable_bundle_page.select,Auswählen,fr_FR
+configurable_bundle_page.select,Sélectionner,fr_FR
 configurable_bundle_page.unselect,Unselect,en_US
-configurable_bundle_page.unselect,Abwählen,fr_FR
+configurable_bundle_page.unselect,Désélectionner,fr_FR
 configurable_bundle_page.edit,Edit,en_US
-configurable_bundle_page.edit,Bearbeiten,fr_FR
+configurable_bundle_page.edit,Éditer,fr_FR
 configurable_bundle_page.configurator,Configurator,en_US
-configurable_bundle_page.configurator,Konfigurator,fr_FR
+configurable_bundle_page.configurator,Configurateur,fr_FR
 configurable_bundle_page.configurable_bundle_list,Configurable Bundle List,en_US
-configurable_bundle_page.configurable_bundle_list,Liste der konfigurierbaren Bündel,fr_FR
+configurable_bundle_page.configurable_bundle_list,Liste de forfaits configurable,fr_FR
 configurable_bundle_page.choose_bundle_to_configure,Choose Bundle to configure,en_US
-configurable_bundle_page.choose_bundle_to_configure,Wählen Sie ein Bündel um es zu konfigurieren,fr_FR
+configurable_bundle_page.choose_bundle_to_configure,Choisissez le groupe à configurer,fr_FR
 configurable_bundle_page.configurator.templates_not_found,There are no templates available.,en_US
-configurable_bundle_page.configurator.templates_not_found,Es sind keine Templates verfügbar.,fr_FR
+configurable_bundle_page.configurator.templates_not_found,Il n'y a pas de modèles disponibles.,fr_FR
 configurable_bundle_page.template_not_found,Configurable bundle template not found.,en_US
-configurable_bundle_page.template_not_found,Das Template für das konfigurierbare Bündel konnte nicht gefunden werden.,fr_FR
+configurable_bundle_page.template_not_found,Modèle de groupe configurable introuvable.,fr_FR
 configurable_bundle_page.invalid_template_slot_combination,Invalid template/slot combination.,en_US
 configurable_bundle_page.invalid_template_slot_combination,Die Template/Slot Kombination ist nicht valide.,fr_FR
 configurable_bundle_page.configurator.tip.header,Create your own bundle.,en_US
