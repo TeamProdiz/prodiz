@@ -10,7 +10,7 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         'contexts' => [
             // shared settings for all contexts
             '*' => [
-                'timezone' => 'Europe/Paris',
+                'timezone' => 'Europe/Berlin',
                 'dateFormat' => [
                     // short date (01.02.12)
                     'short' => 'd/m/Y',
@@ -32,14 +32,15 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         ],
         'locales' => [
             // first entry is default
+            'de' => 'de_DE',
             'fr' => 'fr_FR',
             'en' => 'en_US',
         ],
         // first entry is default
-        'countries' => ['FR', 'GB'],
+        'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
         // internal and shop
         'currencyIsoCode' => 'EUR',
-        'currencyIsoCodes' => ['EUR'],
+        'currencyIsoCodes' => ['EUR', 'CHF'],
         'queuePools' => [
             'synchronizationPool' => [],
         ],
@@ -82,6 +83,42 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         'currencyIsoCodes' => ['USD'],
     ] + $templates['default'];
 
+    $templates['FR'] = [
+        // different contexts
+        'contexts' => [
+            // shared settings for all contexts
+            '*' => [
+                'timezone' => 'Europe/Paris',
+                'dateFormat' => [
+                    // short date (11.14.12)
+                    'short' => 'm/d/Y',
+                    // medium Date (Feb 01. 2012)
+                    'medium' => 'M d. Y',
+                    // date formatted as described in RFC 2822
+                    'rfc' => 'r',
+                    'datetime' => 'Y-m-d H:i:s',
+                ],
+            ],
+            // settings for contexts (overwrite shared)
+            'yves' => [],
+            'zed' => [
+                'dateFormat' => [
+                    // short date (12-28-2012)
+                    'short' => 'm-d-Y',
+                ],
+            ],
+        ],
+        'locales' => [
+            // first entry is default
+            'fr' => 'fr_FR',
+        ],
+        // first entry is default
+        'countries' => ['FR'],
+        // internal and shop
+        'currencyIsoCode' => 'EUR',
+        'currencyIsoCodes' => ['EUR'],
+    ] + $templates['default'];
+
     foreach ($activeStores as $store) {
         $stores[$store] = $templates[$store] ?? $templates['default'];
         $stores[$store]['storesWithSharedPersistence'] = array_diff($activeStores, [$store]);
@@ -93,12 +130,12 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
     return $stores;
 }
 
-$stores['FR'] = [
+$stores['DE'] = [
     // different contexts
     'contexts' => [
         // shared settings for all contexts
         '*' => [
-            'timezone' => 'Europe/Paris',
+            'timezone' => 'Europe/Berlin',
             'dateFormat' => [
                 // short date (01.02.12)
                 'short' => 'd/m/Y',
@@ -122,19 +159,25 @@ $stores['FR'] = [
         // first entry is default
         'fr' => 'fr_FR',
         'en' => 'en_US',
+        'de' => 'de_DE',
     ],
     // first entry is default
-    'countries' => ['FR', 'GB'],
+    'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
     // internal and shop
     'currencyIsoCode' => 'EUR',
-    'currencyIsoCodes' => ['EUR'],
+    'currencyIsoCodes' => ['EUR', 'CHF'],
     'queuePools' => [
         'synchronizationPool' => [
-            'FR-connection',
-            'US-connection',
+            'AT-connection',
+            'DE-connection',
         ],
     ],
+    'storesWithSharedPersistence' => ['AT'],
 ];
+
+$stores['AT'] = [
+        'storesWithSharedPersistence' => ['DE'],
+    ] + $stores['DE'];
 
 $stores['US'] = [
     // different contexts
@@ -168,8 +211,8 @@ $stores['US'] = [
     // first entry is default
     'countries' => ['US'],
     // internal and shop
-    'currencyIsoCode' => 'EUR',
-    'currencyIsoCodes' => ['EUR'],
+    'currencyIsoCode' => 'USD',
+    'currencyIsoCodes' => ['USD'],
     'queuePools' => [
         'synchronizationPool' => [
             'US-connection',
