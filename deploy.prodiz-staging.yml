@@ -48,14 +48,14 @@ regions:
                 password: secret
 
         stores:
-            DE:
+            FR:
                 services:
                     broker:
-                        namespace: de_queue
+                        namespace: fr_queue
                     key_value_store:
                         namespace: 1
                     search:
-                        namespace: de_search
+                        namespace: fr_search
                     session:
                         namespace: 2
 

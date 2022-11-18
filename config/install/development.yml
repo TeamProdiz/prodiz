@@ -2,6 +2,7 @@ env:
     APPLICATION_ENV: development
 
 stores:
+    - FR
     - DE
     - AT
     - US
