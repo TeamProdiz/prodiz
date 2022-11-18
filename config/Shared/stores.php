@@ -21,7 +21,7 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
                     'datetime' => 'Y-m-d H:i:s',
                 ],
             ],
-            // settings for contexts (overwrite shared)
+            // settings for cdontexts (overwrite shared)
             'yves' => [],
             'zed' => [
                 'dateFormat' => [
@@ -32,15 +32,14 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         ],
         'locales' => [
             // first entry is default
-            'de' => 'de_DE',
             'fr' => 'fr_FR',
             'en' => 'en_US',
         ],
         // first entry is default
-        'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
+        'countries' => ['FR'],
         // internal and shop
         'currencyIsoCode' => 'EUR',
-        'currencyIsoCodes' => ['EUR', 'CHF'],
+        'currencyIsoCodes' => ['EUR'],
         'queuePools' => [
             'synchronizationPool' => [],
         ],
@@ -75,48 +74,14 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         'locales' => [
             // first entry is default
             'en' => 'en_US',
+            'fr' => 'fr_FR',
+            'de' => 'de_DE',
         ],
         // first entry is default
         'countries' => ['US'],
         // internal and shop
         'currencyIsoCode' => 'USD',
         'currencyIsoCodes' => ['USD'],
-    ] + $templates['default'];
-
-    $templates['FR'] = [
-        // different contexts
-        'contexts' => [
-            // shared settings for all contexts
-            '*' => [
-                'timezone' => 'Europe/Paris',
-                'dateFormat' => [
-                    // short date (11.14.12)
-                    'short' => 'm/d/Y',
-                    // medium Date (Feb 01. 2012)
-                    'medium' => 'M d. Y',
-                    // date formatted as described in RFC 2822
-                    'rfc' => 'r',
-                    'datetime' => 'Y-m-d H:i:s',
-                ],
-            ],
-            // settings for contexts (overwrite shared)
-            'yves' => [],
-            'zed' => [
-                'dateFormat' => [
-                    // short date (12-28-2012)
-                    'short' => 'm-d-Y',
-                ],
-            ],
-        ],
-        'locales' => [
-            // first entry is default
-            'fr' => 'fr_FR',
-        ],
-        // first entry is default
-        'countries' => ['FR'],
-        // internal and shop
-        'currencyIsoCode' => 'EUR',
-        'currencyIsoCodes' => ['EUR'],
     ] + $templates['default'];
 
     foreach ($activeStores as $store) {
@@ -159,26 +124,19 @@ $stores['DE'] = [
         // first entry is default
         'fr' => 'fr_FR',
         'en' => 'en_US',
-        'de' => 'de_DE',
     ],
     // first entry is default
-    'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
+    'countries' => ['FR', 'DE'],
     // internal and shop
     'currencyIsoCode' => 'EUR',
-    'currencyIsoCodes' => ['EUR', 'CHF'],
+    'currencyIsoCodes' => ['EUR'],
     'queuePools' => [
         'synchronizationPool' => [
-            'AT-connection',
-            'DE-connection',
+            'FR-connection',
         ],
     ],
-    'storesWithSharedPersistence' => ['AT'],
+    'storesWithSharedPersistence' => [],
 ];
-
-$stores['AT'] = [
-        'storesWithSharedPersistence' => ['DE'],
-    ] + $stores['DE'];
-
 $stores['US'] = [
     // different contexts
     'contexts' => [
@@ -206,6 +164,7 @@ $stores['US'] = [
     ],
     'locales' => [
         // first entry is default
+        'fr' => 'fr_FR',
         'en' => 'en_US',
     ],
     // first entry is default
