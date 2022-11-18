@@ -10,7 +10,7 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         'contexts' => [
             // shared settings for all contexts
             '*' => [
-                'timezone' => 'Europe/Berlin',
+                'timezone' => 'Europe/Paris',
                 'dateFormat' => [
                     // short date (01.02.12)
                     'short' => 'd/m/Y',
@@ -36,10 +36,10 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
             'en' => 'en_US',
         ],
         // first entry is default
-        'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
+        'countries' => ['FR', 'GB'],
         // internal and shop
         'currencyIsoCode' => 'EUR',
-        'currencyIsoCodes' => ['EUR', 'CHF'],
+        'currencyIsoCodes' => ['EUR'],
         'queuePools' => [
             'synchronizationPool' => [],
         ],
@@ -93,12 +93,12 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
     return $stores;
 }
 
-$stores['DE'] = [
+$stores['FR'] = [
     // different contexts
     'contexts' => [
         // shared settings for all contexts
         '*' => [
-            'timezone' => 'Europe/Berlin',
+            'timezone' => 'Europe/Paris',
             'dateFormat' => [
                 // short date (01.02.12)
                 'short' => 'd/m/Y',
@@ -124,22 +124,17 @@ $stores['DE'] = [
         'en' => 'en_US',
     ],
     // first entry is default
-    'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
+    'countries' => ['FR', 'GB'],
     // internal and shop
     'currencyIsoCode' => 'EUR',
-    'currencyIsoCodes' => ['EUR', 'CHF'],
+    'currencyIsoCodes' => ['EUR'],
     'queuePools' => [
         'synchronizationPool' => [
-            'AT-connection',
-            'DE-connection',
+            'FR-connection',
+            'US-connection',
         ],
     ],
-    'storesWithSharedPersistence' => ['AT'],
 ];
-
-$stores['AT'] = [
-        'storesWithSharedPersistence' => ['DE'],
-    ] + $stores['DE'];
 
 $stores['US'] = [
     // different contexts
@@ -173,8 +168,8 @@ $stores['US'] = [
     // first entry is default
     'countries' => ['US'],
     // internal and shop
-    'currencyIsoCode' => 'USD',
-    'currencyIsoCodes' => ['USD'],
+    'currencyIsoCode' => 'EUR',
+    'currencyIsoCodes' => ['EUR'],
     'queuePools' => [
         'synchronizationPool' => [
             'US-connection',
