@@ -14,8 +14,8 @@ environment: docker.staging
 image:
     tag: spryker/php:8.0
     environment:
-        SPRYKER_DEFAULT_STORE: "FR"
-        SPRYKER_ACTIVE_STORES: "FR"
+        SPRYKER_DEFAULT_STORE: "DE"
+        SPRYKER_ACTIVE_STORES: "DE"
         SPRYKER_HOOK_BEFORE_DEPLOY: "vendor/bin/install -r EU/pre-deploy -vvv"
         SPRYKER_HOOK_AFTER_DEPLOY: "true"
         SPRYKER_HOOK_INSTALL: "vendor/bin/install -r EU/production --no-ansi -vvv"
@@ -48,14 +48,14 @@ regions:
                 password: secret
 
         stores:
-            FR:
+            DE:
                 services:
                     broker:
-                        namespace: fr_queue
+                        namespace: de_queue
                     key_value_store:
                         namespace: 1
                     search:
-                        namespace: fr_search
+                        namespace: de_search
                     session:
                         namespace: 2
 
@@ -67,7 +67,7 @@ groups:
                 application: static
                 endpoints:
                     prodiz-staging.cloud.spryker.toys:
-                        store: FR
+                        store: DE
                         redirect:
                             type: 302
                             url: www.prodiz-staging.cloud.spryker.toys
@@ -75,36 +75,36 @@ groups:
                 application: yves
                 endpoints:
                     www.prodiz-staging.cloud.spryker.toys:
-                        store: FR
+                        store: DE
                         <<: *frontend-auth
             boffice:
                 application: backoffice
                 endpoints:
                     backoffice.prodiz-staging.cloud.spryker.toys:
-                        store: FR
+                        store: DE
                         <<: *frontend-auth
             backgw:
                 application: backend-gateway
                 endpoints:
                     backend-gateway.prodiz-staging.cloud.spryker.toys:
-                        store: FR
+                        store: DE
             backapi:
                 application: zed
                 endpoints:
                     backend-api.prodiz-staging.cloud.spryker.toys:
-                        store: FR
+                        store: DE
                         entry-point: BackendApi
             Glue:
                 application: glue
                 endpoints:
                     glue.prodiz-staging.cloud.spryker.toys:
-                        store: FR
+                        store: DE
             mportal:
                 application: merchant-portal
                 endpoints:
                     mp.prodiz-staging.cloud.spryker.toys:
                         entry-point: MerchantPortal
-                        store: FR
+                        store: DE
                         primal: true
                         services:
                             session:
@@ -168,7 +168,7 @@ docker:
             enabled: false
 
     testing:
-        store: FR
+        store: DE
 
     mount:
         baked:

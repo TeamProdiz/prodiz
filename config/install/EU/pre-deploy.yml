@@ -2,7 +2,7 @@ env:
     NEW_RELIC_ENABLED: 0
 
 stores:
-    - FR
+    - DE
 
 sections:
     scheduler-stop:
