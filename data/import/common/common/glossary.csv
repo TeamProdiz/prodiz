@@ -205,15 +205,15 @@ page.product.by,par,fr_FR
 page.product.by,by,en_US
 page.product.details,Détails,fr_FR
 page.product.details,Details,en_US
-page.imprint.url,/de/impression,fr_FR
+page.imprint.url,/fr/impression,fr_FR
 page.imprint.url,/en/imprint,en_US
 page.imprint.title,Impression,fr_FR
 page.imprint.title,Imprint,en_US
-page.terms.url,/de/cgv,fr_FR
+page.terms.url,/fr/cgv,fr_FR
 page.terms.url,/en/gtc,en_US
 page.terms.title,CGV,fr_FR
 page.terms.title,GTC,en_US
-page.privacy.url,/de/donnees_privees,fr_FR
+page.privacy.url,/fr/donnees_privees,fr_FR
 page.privacy.url,/en/privacy,en_US
 page.privacy.title,Données privées,fr_FR
 page.privacy.title,Data privacy,en_US
@@ -2406,11 +2406,11 @@ main_slider.btn.title,Achetez maintenant,fr_FR
 show_more.btn.title,Explore more,en_US
 show_more.btn.title,En savoir plus,fr_FR
 main_slider_1.url,/en/office-furniture,en_US
-main_slider_1.url,/de/fourniture-bureau,fr_FR
+main_slider_1.url,/fr/fourniture-bureau,fr_FR
 main_slider_2.url,/en/stationery,en_US
-main_slider_2.url,/de/papeterie,fr_FR
+main_slider_2.url,/fr/papeterie,fr_FR
 main_slider_3.url,/en/office-equipment,en_US
-main_slider_3.url,/de/materiel-de-bureau,fr_FR
+main_slider_3.url,/fr/materiel-de-bureau,fr_FR
 company.account.company_role.delete.confirmation.warning,Warning,en_US
 company.account.company_role.delete.confirmation.warning,Attention,fr_FR
 company.account.company_role.delete.confirmation.trying_to_delete,You are trying to delete company role,en_US
@@ -2472,7 +2472,7 @@ product.set,Ensemble de produits,fr_FR
 product.set.detail.add_all_to,Add all to,en_US
 product.set.detail.add_all_to,Tous ajouter à,fr_FR
 checkout.success.to_orders.url,/en/customer/order,en_US
-checkout.success.to_orders.url,/de/client/commande,fr_FR
+checkout.success.to_orders.url,/fr/client/commande,fr_FR
 checkout.success.to_orders.title,Go to My Orders,en_US
 checkout.success.to_orders.title,Aller à mes commandes,fr_FR
 checkout.success.back_to_home.title,Back to Home,en_US
