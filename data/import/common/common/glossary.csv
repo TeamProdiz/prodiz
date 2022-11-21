@@ -3285,159 +3285,159 @@ order_custom_reference.form.placeholder,Ajouter une référence de commande pers
 order_custom_reference.save,Save,en_US
 order_custom_reference.save,Sauvegarder,fr_FR
 cart.item.sales_unit.not_found,Sales unit is not found for product with SKU '%sku%'.,en_US
-cart.item.sales_unit.not_found,Verkaufseinheit wird für Produkt mit SKU '%sku%' nicht gefunden.,fr_FR
+cart.item.sales_unit.not_found,L'unité de vente est introuvable pour le produit avec le SKU '%sku%'.,fr_FR
 cart.item.packaging_unit.not_found,Packaging unit not found for product with SKU '%sku%'.,en_US
-cart.item.packaging_unit.not_found,Verpackungseinheit für Produkt mit SKU '% sku%' nicht gefunden.,fr_FR
+cart.item.packaging_unit.not_found,Unité d'emballage introuvable pour le produit avec SKU '%sku%'.,fr_FR
 quote_request_agent_page.checkout.step.save_rfq.title,Save Request For Quote,en_US
-quote_request_agent_page.checkout.step.save_rfq.title,Angebotsanfrage speichern,fr_FR
+quote_request_agent_page.checkout.step.save_rfq.title,Enregistrer la demande de devis,fr_FR
 quote_request_page.quote_request.saved,Quote request saved successfully.,en_US
-quote_request_page.quote_request.saved,Angebotsanfrage wurde erfolgreich gespeichert.,fr_FR
+quote_request_page.quote_request.saved,Demande de devis enregistrée avec succès.,fr_FR
 quote_request_page.quote_request.actions.edit_address,Edit Address,en_US
-quote_request_page.quote_request.actions.edit_address,Adresse bearbeiten,fr_FR
+quote_request_page.quote_request.actions.edit_address,Modifier l'adresse,fr_FR
 quote_request_page.quote_request.actions.edit_shipment,Edit Shipment,en_US
-quote_request_page.quote_request.actions.edit_shipment,Versandart bearbeiten,fr_FR
+quote_request_page.quote_request.actions.edit_shipment,Modifier l'envoi,fr_FR
 quote_request_page.quote_request.edit_address_confirm,"You are editing Quote Request <a href=""%link%"">%reference%</a> if you will leave it, all changes will be dropped.",en_US
-quote_request_page.quote_request.edit_address_confirm,"Sie bearbeiten Angebotsanfrage <a href=""%link%"">%reference%</a> wenn Sie es verlassen, werden alle Änderungen verworfen.",fr_FR
+quote_request_page.quote_request.edit_address_confirm,"Vous modifiez la demande de devis <a href=""%link%"">%reference%</a> si vous la laissez, toutes les modifications seront supprimées.",fr_FR
 quote_request_page.quote_request.edit_shipment_confirm,"You are editing Quote Request <a href=""%link%"">%reference%</a> if you will leave it, all changes will be dropped.",en_US
-quote_request_page.quote_request.edit_shipment_confirm,"Sie bearbeiten Angebotsanfrage <a href=""%link%"">%reference%</a> wenn Sie es verlassen, werden alle Änderungen verworfen.",fr_FR
+quote_request_page.quote_request.edit_shipment_confirm,"Vous modifiez la demande de devis <a href=""%link%"">%reference%</a> si vous la laissez, toutes les modifications seront supprimées.",fr_FR
 quote_request_page.quote_request.shipment_counter,Shipment %index% of %length%,en_US
-quote_request_page.quote_request.shipment_counter,Lieferung %index% von %length%,fr_FR
+quote_request_page.quote_request.shipment_counter,Expédition %index% sur %length%,fr_FR
 quote_request_page.quote_request.empty_shipment_data,No shipment address / shipment method provided.,en_US
-quote_request_page.quote_request.empty_shipment_data,Es wurde keine Lieferadresse / Lieferart angegeben.,fr_FR
+quote_request_page.quote_request.empty_shipment_data,Aucune adresse d'expédition / méthode d'expédition fournie.,fr_FR
 quote_request_page.quote_request.title_create,Create Quote Request,en_US
-quote_request_page.quote_request.title_create,Angebotsanfrage erstellen,fr_FR
+quote_request_page.quote_request.title_create,Créer une demande de devis,fr_FR
 quote_request_page.quote_request.title_edit,Edit #%id%,en_US
-quote_request_page.quote_request.title_edit,Ändern #%id%,fr_FR
-quote_request_page.quote_request.title_attention,Attention,en_US
-quote_request_page.quote_request.title_attention,Achtung,fr_FR
+quote_request_page.quote_request.title_edit,Modifier #%id%,fr_FR
+quote_request_page.quote_request.title_attention,Warning,en_US
+quote_request_page.quote_request.title_attention,Attention,fr_FR
 quote_request_page.quote_request.title_addresses,Addresses,en_US
-quote_request_page.quote_request.title_addresses,Adressen,fr_FR
+quote_request_page.quote_request.title_addresses,Adresses,fr_FR
 quote_request_page.quote_request.title_billing_address,Billing Address,en_US
-quote_request_page.quote_request.title_billing_address,Rechnungsadresse,fr_FR
+quote_request_page.quote_request.title_billing_address,Adresse de facturation,fr_FR
 quote_request_page.quote_request.title_delivery_address,Delivery address,en_US
-quote_request_page.quote_request.title_delivery_address,Lieferadresse,fr_FR
+quote_request_page.quote_request.title_delivery_address,Adresse de livraison,fr_FR
 quote_request_page.quote_request.title_shipment_method,Shipment method,en_US
-quote_request_page.quote_request.title_shipment_method,Versandmethode,fr_FR
+quote_request_page.quote_request.title_shipment_method,Méthode de livraison,fr_FR
 quote_request_page.quote_request.breadcrumb.create,Create,en_US
-quote_request_page.quote_request.breadcrumb.create,Erstellen,fr_FR
+quote_request_page.quote_request.breadcrumb.create,Créer,fr_FR
 quote_request_page.quote_request.breadcrumb.edit,Edit,en_US
-quote_request_page.quote_request.breadcrumb.edit,Ändern,fr_FR
-quote_request_page.quote_request.breadcrumb.attention,Attention,en_US
-quote_request_page.quote_request.breadcrumb.attention,Achtung,fr_FR
+quote_request_page.quote_request.breadcrumb.edit,MOdifier,fr_FR
+quote_request_page.quote_request.breadcrumb.attention,Warning,en_US
+quote_request_page.quote_request.breadcrumb.attention,Attention,fr_FR
 quote_request_page.quote_request.multiple_delivery_address,Multiple delivery addresses.,en_US
-quote_request_page.quote_request.multiple_delivery_address,Mehrere Lieferadressen.,fr_FR
+quote_request_page.quote_request.multiple_delivery_address,Plusieurs adresses de livraison.,fr_FR
 quote_request_page.quote_request.multiple_shipment_method,Multiple shipment methods.,en_US
-quote_request_page.quote_request.multiple_shipment_method,Mehrere Versandarten.,fr_FR
+quote_request_page.quote_request.multiple_shipment_method,Plusieurs adresses de transport.,fr_FR
 quote_request_page.quote_request.empty_page,Your Quote is empty!,en_US
-quote_request_page.quote_request.empty_page,Ihre Angebotsanfrage ist unvollständig!,fr_FR
+quote_request_page.quote_request.empty_page,Votre devis est vide !,fr_FR
 quote_request_page.quote_request.empty_delivery_address,No delivery address added.,en_US
-quote_request_page.quote_request.empty_delivery_address,Keine Lieferadresse hinzugefügt.,fr_FR
+quote_request_page.quote_request.empty_delivery_address,Aucune adresse de livraision ajoutée,fr_FR
 quote_request_page.quote_request.empty_address,No address added.,en_US
-quote_request_page.quote_request.empty_address,Keine Adresse hinzugefügt.,fr_FR
+quote_request_page.quote_request.empty_address,Aucune adresse ajouté,fr_FR
 quote_request_page.quote_request.empty_shipment_method,No shipment method added.,en_US
-quote_request_page.quote_request.empty_shipment_method,Keine Versandart hinzugefügt.,fr_FR
+quote_request_page.quote_request.empty_shipment_method,Aucune méthode de livraision ajoutée.,fr_FR
 quote_request_page.quote_request.cta_add_address,Add address,en_US
-quote_request_page.quote_request.cta_add_address,Adresse hinzufügen,fr_FR
+quote_request_page.quote_request.cta_add_address,Ajouter une adresse,fr_FR
 quote_request_page.quote_request.cta_edit_address,Edit address,en_US
-quote_request_page.quote_request.cta_edit_address,Adresse bearbeiten,fr_FR
+quote_request_page.quote_request.cta_edit_address,Modifier l'adresse,fr_FR
 quote_request_page.quote_request.cta_add_shipment_method,Add shipment method,en_US
-quote_request_page.quote_request.cta_add_shipment_method,Versandart hinzufügen,fr_FR
+quote_request_page.quote_request.cta_add_shipment_method,Ajouter une méthode de livraison,fr_FR
 quote_request_page.quote_request.cta_edit_shipment_method,Edit shipment method,en_US
-quote_request_page.quote_request.cta_edit_shipment_method,Versandart bearbeiten,fr_FR
+quote_request_page.quote_request.cta_edit_shipment_method,Modifier une méthode de livraison,fr_FR
 quote_request_page.quote_request.item,%count% item(s),en_US
-quote_request_page.quote_request.item,%count% artikel,fr_FR
+quote_request_page.quote_request.item,%count% article(s),fr_FR
 quote_request_page.quote_request.shipments,Shipments,en_US
-quote_request_page.quote_request.shipments,Versand,fr_FR
+quote_request_page.quote_request.shipments,Livraison,fr_FR
 checkout.step.summary.shipment_costs_total,Shipment total,en_US
-checkout.step.summary.shipment_costs_total,Versand insgesamt,fr_FR
+checkout.step.summary.shipment_costs_total,Total de l'expédition,fr_FR
 maintenance.search.gui_is_not_set_up,To be able to inspect the search data please install the GUI module suitable for your search provider (e.g. spryker/search-elasticsearch-gui for Elasticsearch).,en_US
-maintenance.search.gui_is_not_set_up,Um die Suchdaten einsehen zu können installieren Sie bitte das für Ihren Search Provider vorgesehenes GUI-Modul (z.B. spryker/search-elasticsearch-gui für Elasticsearch).,fr_FR
+maintenance.search.gui_is_not_set_up,"Pour pouvoir inspecter les données de recherche, veuillez installer le module GUI adapté à votre fournisseur de recherche (par exemple, spryker/search-elasticsearch-gui pour Elasticsearch).",fr_FR
 customer.order.number_of_items,No. of Items,en_US
-customer.order.number_of_items,Anzahl der Artikel,fr_FR
+customer.order.number_of_items,Nombre d'articles,fr_FR
 customer.order.reference,Reference,en_US
-customer.order.reference,Referenz,fr_FR
+customer.order.reference,Référence,fr_FR
 customer.order.email,Email,en_US
-customer.order.email,E-Mail-Adresse,fr_FR
+customer.order.email,E-Mail,fr_FR
 customer.order.company_user,Company User,en_US
-customer.order.company_user,Firmenbenutzer,fr_FR
+customer.order.company_user,Membre de la société,fr_FR
 customer.order_history.search_type.all,All,en_US
-customer.order_history.search_type.all,Alle,fr_FR
+customer.order_history.search_type.all,Tout,fr_FR
 customer.order_history.search_type.orderReference,Order Reference,en_US
-customer.order_history.search_type.orderReference,Bestellnummer,fr_FR
+customer.order_history.search_type.orderReference,Référence commande,fr_FR
 customer.order_history.search_type.itemName,Product Name,en_US
 customer.order_history.search_type.itemName,Nom du produit,fr_FR
 customer.order_history.search_type.itemSku,Product SKU,en_US
-customer.order_history.search_type.itemSku,Produkt-SKU,fr_FR
+customer.order_history.search_type.itemSku,SKU produit,fr_FR
 customer.order_history.search,Search,en_US
-customer.order_history.search,Suchen,fr_FR
+customer.order_history.search,Rechercher,fr_FR
 customer.order_history.date_from,From,en_US
-customer.order_history.date_from,Von,fr_FR
+customer.order_history.date_from,De,fr_FR
 customer.order_history.date_to,To,en_US
-customer.order_history.date_to,Bis,fr_FR
+customer.order_history.date_to,à,fr_FR
 customer.order_history.apply,Apply,en_US
-customer.order_history.apply,Anwenden,fr_FR
+customer.order_history.apply,Appliquer,fr_FR
 customer.order_history.is_order_items_visible,Show products in search results,en_US
-customer.order_history.is_order_items_visible,Produkte in Suchergebnissen anzeigen,fr_FR
+customer.order_history.is_order_items_visible,Afficher les produits dans les résultats de recherche,fr_FR
 customer.order_history.active_filters,Active Filters:,en_US
-customer.order_history.active_filters,Aktive Filter:,fr_FR
+customer.order_history.active_filters,Filtre actif :,fr_FR
 customer.order_history.reset_all,Reset All,en_US
-customer.order_history.reset_all,Alles zurücksetzen,fr_FR
+customer.order_history.reset_all,Réinitialiser,fr_FR
 company_page.label.business_unit,Business Unit,en_US
-company_page.label.business_unit,Geschäftsbereich,fr_FR
+company_page.label.business_unit,Unité commerciale,fr_FR
 company_page.choice.my_orders,My Orders,en_US
-company_page.choice.my_orders,Meine Bestellungen,fr_FR
+company_page.choice.my_orders,Ma commande,fr_FR
 company_page.choice.company_orders,Company Orders,en_US
-company_page.choice.company_orders,Firmenbestellungen,fr_FR
+company_page.choice.company_orders,Commande Société,fr_FR
 permission.name.SeeCompanyOrdersPermissionPlugin,View Company orders,en_US
-permission.name.SeeCompanyOrdersPermissionPlugin,Firmenbestellungen anzeigen,fr_FR
+permission.name.SeeCompanyOrdersPermissionPlugin,Afficher les commandes de l'entreprise,fr_FR
 permission.name.SeeBusinessUnitOrdersPermissionPlugin,View Business Unit orders,en_US
-permission.name.SeeBusinessUnitOrdersPermissionPlugin,Bestellungen von Geschäftsbereichen anzeigen,fr_FR
+permission.name.SeeBusinessUnitOrdersPermissionPlugin,Afficher les commandes de l'unité commerciale,fr_FR
 customer.account.button.search_filters,Search & Filters,en_US
-customer.account.button.search_filters,Suche und Filter,fr_FR
+customer.account.button.search_filters,Recherche et filtres,fr_FR
 return.return_reasons.damaged.name,Damaged,en_US
-return.return_reasons.damaged.name,Beschädigt,fr_FR
+return.return_reasons.damaged.name,Endommagé,fr_FR
 return.return_reasons.wrong-item.name,Wrong Item,en_US
-return.return_reasons.wrong-item.name,Falscher Artikel,fr_FR
+return.return_reasons.wrong-item.name,Mauvais article,fr_FR
 return.return_reasons.no_longer_needed.name,No longer needed,en_US
-return.return_reasons.no_longer_needed.name,Nicht mehr benötigt,fr_FR
+return.return_reasons.no_longer_needed.name,Ne sont plus nécessaires,fr_FR
 return.return_policy.returnable_till.message,Returnable till: %date%,en_US
-return.return_policy.returnable_till.message,Man kann retournieren bis: %date%,fr_FR
+return.return_policy.returnable_till.message,Remboursable jusqu'à: %date%,fr_FR
 return_page.default_title,Returns,en_US
-return_page.default_title,Retouren,fr_FR
+return_page.default_title,Retours,fr_FR
 return_page.title,Create Return,en_US
-return_page.title,Retoure Anlegen,fr_FR
+return_page.title,Créer un retour,fr_FR
 return_page.return_reasons.select_reason.placeholder,Select reason,en_US
-return_page.return_reasons.select_reason.placeholder,Grund auswählen,fr_FR
+return_page.return_reasons.select_reason.placeholder,Sélectionner une raison,fr_FR
 return_page.return_reasons.custom_reason.placeholder,Custom reason,en_US
-return_page.return_reasons.custom_reason.placeholder,Benutzerdefinierter Grund,fr_FR
+return_page.return_reasons.custom_reason.placeholder,Raison personnalisée,fr_FR
 return.return_policy.returnable_till.message,Returnable till: %date%,en_US
-return.return_policy.returnable_till.message,Retournierbar bis: %date%,fr_FR
+return.return_policy.returnable_till.message,Remboursable jusqu'à: %date%,fr_FR
 cart_page.error_message.unexpected_error,Unexpected error occurred.,en_US
-cart_page.error_message.unexpected_error,Ein unerwarteter Fehler aufgetreten.,fr_FR
+cart_page.error_message.unexpected_error,Une erreur inattendue s'est produite.,fr_FR
 order_invoice.invoice_template.table.number,Pos.,en_US
 order_invoice.invoice_template.table.number,Pos.,fr_FR
 order_invoice.invoice_template.table.quantity,Quantity,en_US
-order_invoice.invoice_template.table.quantity,Menge,fr_FR
+order_invoice.invoice_template.table.quantity,Quantité,fr_FR
 order_invoice.invoice_template.table.name,Item,en_US
-order_invoice.invoice_template.table.name,Artikelbezeihnung,fr_FR
+order_invoice.invoice_template.table.name,Article,fr_FR
 order_invoice.invoice_template.table.tax,Tax rate,en_US
-order_invoice.invoice_template.table.tax,Steuersatz,fr_FR
+order_invoice.invoice_template.table.tax,Taux de taxe,fr_FR
 order_invoice.invoice_template.table.price,Price,en_US
-order_invoice.invoice_template.table.price,Preis,fr_FR
+order_invoice.invoice_template.table.price,Prix,fr_FR
 order_invoice.invoice_template.table.subtotal,Subtotal,en_US
-order_invoice.invoice_template.table.subtotal,Zwischensumme,fr_FR
+order_invoice.invoice_template.table.subtotal,Total,fr_FR
 order_invoice.invoice_template.table.discount,Discount,en_US
-order_invoice.invoice_template.table.discount,Rabatt,fr_FR
+order_invoice.invoice_template.table.discount,Remise,fr_FR
 order_invoice.invoice_template.table.tax.included,this includes %tax_rate%% VAT net,en_US
-order_invoice.invoice_template.table.tax.included,darin enthalten %tax_rate%% MwSt. Netto,fr_FR
+order_invoice.invoice_template.table.tax.included,cela inclu %tax_rate%% TVA Net,fr_FR
 order_invoice.invoice_template.table.tax.name,VAT,en_US
-order_invoice.invoice_template.table.tax.name,MwSt.,fr_FR
+order_invoice.invoice_template.table.tax.name,TVA,fr_FR
 order_invoice.invoice_template.table.grandtotal,Grand total,en_US
-order_invoice.invoice_template.table.grandtotal,Summe,fr_FR
+order_invoice.invoice_template.table.grandtotal,Total,fr_FR
 order_invoice.invoice_template.reference,Invoice number:,en_US
-order_invoice.invoice_template.reference,Rechnungsnummer:,fr_FR
+order_invoice.invoice_template.reference,Facture numéro :,fr_FR
 order_invoice.invoice_template.introduction,We hereby charge you for the following goods:,en_US
-order_invoice.invoice_template.introduction,Hiermit berechnen wir Ihnen folgende Ware:,fr_FR
+order_invoice.invoice_template.introduction,"Par la présente, nous vous facturons les marchandises suivantes :",fr_FR
 order_invoice.invoice_template.company.name,Spryker Systems GmbH Berlin,en_US
 order_invoice.invoice_template.company.name,Spryker Systems GmbH Berlin,fr_FR
 order_invoice.invoice_template.company.address,Julie-Wolfthorn-Straße 1<br>10115 Berlin <br> Germany,en_US
@@ -3449,217 +3449,217 @@ order_invoice.invoice_template.merchant.name,Spryker Systems GmbH Berlin,fr_FR
 order_invoice.invoice_template.merchant.address,Julie-Wolfthorn-Straße 1 + 10115 Berlin,en_US
 order_invoice.invoice_template.merchant.address,Julie-Wolfthorn-Straße 1 + 10115 Berlin,fr_FR
 order_invoice.invoice_template.table.total.net,Total net,en_US
-order_invoice.invoice_template.table.total.net,Gesamt Netto,fr_FR
+order_invoice.invoice_template.table.total.net,Total net,fr_FR
 return_page.list.title,Returns,en_US
-return_page.list.title,Retouren,fr_FR
+return_page.list.title,Retours,fr_FR
 return_page.account.no_return,No returns at the moment,en_US
-return_page.account.no_return,Momentan gibt es keine Retouren,fr_FR
+return_page.account.no_return,Aucun retour pour le moment,fr_FR
 return_page.return.return_ref,Return Reference,en_US
-return_page.return.return_ref,Retourennummer,fr_FR
+return_page.return.return_ref,Référence du retour,fr_FR
 return_page.return.order_ref,Order Reference,en_US
-return_page.return.order_ref,Bestellnummer,fr_FR
+return_page.return.order_ref,Référence commande,fr_FR
 return_page.return.number_of_items,No. of Items,en_US
-return_page.return.number_of_items,Anzahl der Artikel,fr_FR
+return_page.return.number_of_items,Nombre d'articles,fr_FR
 return_page.return.date,Return Date,en_US
-return_page.return.date,Retouredatum,fr_FR
+return_page.return.date,Date de retour,fr_FR
 return_page.return.items_state,Items State,en_US
-return_page.return.items_state,Stand der Artikel,fr_FR
+return_page.return.items_state,Status articles,fr_FR
 return_page.return.view_return,View Return,en_US
-return_page.return.view_return,Retoure ansehen,fr_FR
+return_page.return.view_return,Voir le retour,fr_FR
 return_page.return.print_return,Print Slip,en_US
-return_page.return.print_return,Beleg ausdrücken,fr_FR
+return_page.return.print_return,Imprimer le bordereau,fr_FR
 return_page.breadcrumb.returns,Returns,en_US
-return_page.breadcrumb.returns,Retouren,fr_FR
+return_page.breadcrumb.returns,Retours,fr_FR
 return_page.breadcrumb.create_return,Create Return,en_US
-return_page.breadcrumb.create_return,Retoure anlegen,fr_FR
+return_page.breadcrumb.create_return,Créer un retour,fr_FR
 return_page.details.page_title,Return Details,en_US
-return_page.details.page_title,Retourendetails,fr_FR
+return_page.details.page_title,Détails du retour,fr_FR
 return_page.details.actions.back_to_list,Back to List,en_US
-return_page.details.actions.back_to_list,Zurück zur Liste,fr_FR
+return_page.details.actions.back_to_list,Retour à la liste,fr_FR
 return_page.details.actions.print_slip,Print Slip,en_US
-return_page.details.actions.print_slip,Beleg ausdrücken,fr_FR
+return_page.details.actions.print_slip,Imprimer le bordereau,fr_FR
 return_page.details.total.items_to_return,Items to return,en_US
-return_page.details.total.items_to_return,Die zu retournierenden Artikel,fr_FR
+return_page.details.total.items_to_return,Articles à retouner,fr_FR
 return_page.details.total.items_to_return.count,items,en_US
-return_page.details.total.items_to_return.count,Artikel,fr_FR
+return_page.details.total.items_to_return.count,Articles,fr_FR
 return_page.details.total.remuneration_total,Remuneration Total,en_US
-return_page.details.total.remuneration_total,Rückerstattungsbetrag,fr_FR
+return_page.details.total.remuneration_total,Rémunération total,fr_FR
 return_page.item.options,Product options:,en_US
-return_page.item.options,Produktoptionen:,fr_FR
+return_page.item.options,Options produit :,fr_FR
 return_page.table.actions,Actions,en_US
 return_page.table.actions,Actions,fr_FR
 return_page.button.return_list,Returns,en_US
-return_page.button.return_list,Retouren,fr_FR
+return_page.button.return_list,Retours,fr_FR
 return_page.return_reasons.title,Reason:,en_US
-return_page.return_reasons.title,Grund:,fr_FR
+return_page.return_reasons.title,Rasion :,fr_FR
 return_page.return_reasons.empty,—,en_US
 return_page.return_reasons.empty,—,fr_FR
 return_page.return.created,Return created successfully,en_US
-return_page.return.created,Retoure wurde erfolgreich angelegt,fr_FR
+return_page.return.created,Retour créé avec succès,fr_FR
 return_page.return.title,Create Return,en_US
-return_page.return.title,Retoure Anlegen,fr_FR
+return_page.return.title,Créer un retour,fr_FR
 return_page.order_reference,Order ref:,en_US
-return_page.order_reference,Bestellnummer:,fr_FR
+return_page.order_reference,Commande ref. :,fr_FR
 return_page.order_date,Order date:,en_US
-return_page.order_date,Bestellungsdatum:,fr_FR
+return_page.order_date,Date commande :,fr_FR
 return_page.return_reference,Return ref:,en_US
-return_page.return_reference,Retourennummer:,fr_FR
+return_page.return_reference,Retour ref. :,fr_FR
 return_page.return_date,Return date:,en_US
-return_page.return_date,Retouredatum:,fr_FR
+return_page.return_date,Date retour :,fr_FR
 return_page.button_text,Create Return,en_US
-return_page.button_text,Retoure anlegen,fr_FR
+return_page.button_text,Créer retour,fr_FR
 return_page.item_sku,SKU:,en_US
 return_page.item_sku,SKU:,fr_FR
 return_page.quantity,Quantity:,en_US
-return_page.quantity,Anzahl:,fr_FR
+return_page.quantity,Quantité :,fr_FR
 return_page.returnable_state,Non-returnable,en_US
-return_page.returnable_state,Kann nicht retourniert werden,fr_FR
+return_page.returnable_state,Non-retournable,fr_FR
 return_page.create_return.validation.selected_items,At least one product should be selected.,en_US
-return_page.create_return.validation.selected_items,Mindestens ein Produkt sollte ausgewählt werden.,fr_FR
+return_page.create_return.validation.selected_items,Au moins un produit doit être sélectionné,fr_FR
 return_page.button.create_return,Return,en_US
-return_page.button.create_return,Retoure anlegen,fr_FR
+return_page.button.create_return,Retour,fr_FR
 return_page.slip.return_reference,Return Ref,en_US
-return_page.slip.return_reference,Retourennummer,fr_FR
+return_page.slip.return_reference,Réf. Retour,fr_FR
 return_page.slip.return_date,Return Date,en_US
-return_page.slip.return_date,Retouredatum,fr_FR
+return_page.slip.return_date,Date Retour,fr_FR
 return_page.slip.order_reference,Order Ref,en_US
-return_page.slip.order_reference,Bestellnummer,fr_FR
+return_page.slip.order_reference,Réf. commande,fr_FR
 return_page.slip.barcode,Barcode,en_US
-return_page.slip.barcode,Barcode,fr_FR
+return_page.slip.barcode,Code barre,fr_FR
 return_page.slip.product_sku,Product SKU,en_US
-return_page.slip.product_sku,Produkt-SKU,fr_FR
+return_page.slip.product_sku,SKU produit,fr_FR
 return_page.slip.product_name,Product Name,en_US
 return_page.slip.product_name,Nom du produit,fr_FR
 return_page.slip.default_price,Default Price,en_US
 return_page.slip.default_price,Prix par défaut,fr_FR
 return_page.slip.quantity,Qty,en_US
-return_page.slip.quantity,Anzahl,fr_FR
+return_page.slip.quantity,Qté,fr_FR
 return_page.slip.total_price,Total Price,en_US
-return_page.slip.total_price,Gesamtpreis,fr_FR
+return_page.slip.total_price,Prix Total,fr_FR
 return_page.slip.return_reason,Return Reason,en_US
-return_page.slip.return_reason,Retourengrund,fr_FR
+return_page.slip.return_reason,Motif de retour,fr_FR
 return_page.slip.items_to_return,Items to Return,en_US
-return_page.slip.items_to_return,Die zu retournierenden Artikel,fr_FR
+return_page.slip.items_to_return,Articles à retourner,fr_FR
 return_page.slip.remuneration_total,Remuneration Total,en_US
-return_page.slip.remuneration_total,Rückerstattungsbetrag,fr_FR
+return_page.slip.remuneration_total,Rémunération Totale,fr_FR
 sales_product_bundle_widget.returnable_text,Returnable till:,en_US
-sales_product_bundle_widget.returnable_text,Man kann retournieren bis:,fr_FR
+sales_product_bundle_widget.returnable_text,Retournable jusqu'à :,fr_FR
 sales_product_bundle_widget.returnable_state,Non-returnable,en_US
-sales_product_bundle_widget.returnable_state,Kann nicht retourniert werden,fr_FR
+sales_product_bundle_widget.returnable_state,Non-retournable,fr_FR
 sales_product_bundle_widget.item_sku,SKU:,en_US
 sales_product_bundle_widget.item_sku,SKU:,fr_FR
 sales_product_bundle_widget.quantity,Quantity:,en_US
-sales_product_bundle_widget.quantity,Anzahl:,fr_FR
+sales_product_bundle_widget.quantity,Quantité:,fr_FR
 sales_product_bundle_widget.item.options,Product options:,en_US
-sales_product_bundle_widget.item.options,Produktoptionen:,fr_FR
+sales_product_bundle_widget.item.options,Options produit:,fr_FR
 oms.state.new,New,en_US
-oms.state.new,Neu,fr_FR
+oms.state.new,Nouveau,fr_FR
 oms.state.waiting,Waiting,en_US
-oms.state.waiting,Warten,fr_FR
+oms.state.waiting,Attente,fr_FR
 oms.state.in-progress,In progress,en_US
-oms.state.in-progress,In Bearbeitung,fr_FR
+oms.state.in-progress,En cours,fr_FR
 oms.state.ready,Ready,en_US
-oms.state.ready,Bereit,fr_FR
+oms.state.ready,Prêt,fr_FR
 oms.state.canceled,Canceled,en_US
-oms.state.canceled,Abgebrochen,fr_FR
+oms.state.canceled,Annulé,fr_FR
 oms.state.closed,Closed,en_US
-oms.state.closed,Geschlossen,fr_FR
+oms.state.closed,Fermé,fr_FR
 oms.state.draft,Draft,en_US
-oms.state.draft,Entwurf,fr_FR
+oms.state.draft,Brouillon,fr_FR
 oms.state.payment-pending,Payment pending,en_US
-oms.state.payment-pending,Ausstehende Zahlung,fr_FR
+oms.state.payment-pending,Paiement en attente,fr_FR
 oms.state.paid,Paid,en_US
-oms.state.paid,Bezahlt,fr_FR
+oms.state.paid,Payé,fr_FR
 oms.state.confirmed,Confirmed,en_US
-oms.state.confirmed,Bestätigt,fr_FR
+oms.state.confirmed,Confirmé,fr_FR
 oms.state.exported,Exported,en_US
-oms.state.exported,Exportiert,fr_FR
+oms.state.exported,Exporté,fr_FR
 oms.state.shipped,Shipped,en_US
-oms.state.shipped,Versandt,fr_FR
+oms.state.shipped,Envoyé,fr_FR
 oms.state.delivered,Delivered,en_US
-oms.state.delivered,Geliefert,fr_FR
+oms.state.delivered,Livré,fr_FR
 oms.state.ready-for-return,Ready for return,en_US
-oms.state.ready-for-return,Bereit zum Retournieren,fr_FR
+oms.state.ready-for-return,Prêt pour le retour,fr_FR
 oms.state.refunded,Refunded,en_US
-oms.state.refunded,Zurückerstattet,fr_FR
+oms.state.refunded,Remboursé,fr_FR
 oms.state.returned,Returned,en_US
-oms.state.returned,Retourniert,fr_FR
+oms.state.returned,Retourné,fr_FR
 oms.state.waiting-for-return,Waiting for return,en_US
-oms.state.waiting-for-return,Wartet auf Retoure,fr_FR
+oms.state.waiting-for-return,En attente de retour,fr_FR
 oms.state.shipped-to-customer,Shipped to customer,en_US
-oms.state.shipped-to-customer,An den Kunden versandt,fr_FR
+oms.state.shipped-to-customer,Envoyé au client,fr_FR
 oms.state.sent-to-merchant,Sent to merchant,en_US
-oms.state.sent-to-merchant,An den Händler versandt,fr_FR
+oms.state.sent-to-merchant,Envoyé au vendeur,fr_FR
 oms.state.shipped-by-merchant,Shipped by merchant,en_US
-oms.state.shipped-by-merchant,Von dem Händler versandt,fr_FR
+oms.state.shipped-by-merchant,Envoyé par le marchant,fr_FR
 oms.state.return-canceled,Return canceled,en_US
-oms.state.return-canceled,Retoure wurde abgebrochen,fr_FR
+oms.state.return-canceled,Retour Cloturé,fr_FR
 oms.state.invoice-generated,Invoice generated,en_US
-oms.state.invoice-generated,Rechnung erstellt,fr_FR
+oms.state.invoice-generated,Facture généré,fr_FR
 oms.state.invoice-generated,Invoice generated,en_US
-oms.state.invoice-generated,Rechnung generiert,fr_FR
+oms.state.invoice-generated,Facture généré,fr_FR
 oms.state.reservation-cancelled,Reservation Cancelled,en_US
-oms.state.reservation-cancelled,Reservation Cancelled,fr_FR
+oms.state.reservation-cancelled,Réservation cloturée,fr_FR
 oms.state.reservation-cancellation-pending,Reservation Cancellation Pending,en_US
-oms.state.reservation-cancellation-pending,Reservation Cancellation Pending,fr_FR
+oms.state.reservation-cancellation-pending,Annulation de réservation en attente,fr_FR
 return.create_return.validation.returnable_items_error,Return cannot be created as it contains non-returnable items,en_US
-return.create_return.validation.returnable_items_error,"Retoure kann nicht angestellt werden, weil sie die Artikel beinhaltet, die nicht retourniert werden können",fr_FR
+return.create_return.validation.returnable_items_error,Le retour ne peut pas être créé car il contient des articles non retournables,fr_FR
 return.create_return.validation.store_error,Return cannot be created - a wrong store has been selected,en_US
-return.create_return.validation.store_error,Retoure kann nicht angestellt werden - es wurde ein falscher Store ausgewählt.,fr_FR
+return.create_return.validation.store_error,Le retour ne peut pas être créé - un mauvais magasin a été sélectionné,fr_FR
 return.create_return.validation.items_error,Return cannot be cretaed for this set of items,en_US
-return.create_return.validation.items_error,Für dieses Set der Artikel kann die Retoure nicht erstellt werden,fr_FR
+return.create_return.validation.items_error,Impossible de créer un retour pour cet ensemble d'articles,fr_FR
 form.csrf.error.text,Something went wrong. Sorry.,en_US
-form.csrf.error.text,Leider ging etwas schief. Tut uns leid.,fr_FR
+form.csrf.error.text,Quelque chose s'est mal passé. Pardon.,fr_FR
 checkbox-select-all.title,Select All,en_US
-checkbox-select-all.title,Wählen Sie Alle,fr_FR
+checkbox-select-all.title,Tout sélectionner,fr_FR
 sales.error.customer_order_not_found,Customer Order not found.,en_US
-sales.error.customer_order_not_found,Die Bestellung wurde nicht gefunden.,fr_FR
+sales.error.customer_order_not_found,Commande client introuvable,fr_FR
 sales.error.order_cannot_be_canceled_due_to_wrong_item_state,Order cannot be canceled due to wrong item state.,en_US
-sales.error.order_cannot_be_canceled_due_to_wrong_item_state,Die Bestellung kann wegen dem falschen Artikelstatus nicht storniert werden.,fr_FR
+sales.error.order_cannot_be_canceled_due_to_wrong_item_state,La commande ne peut pas être annulée en raison d'un mauvais état de l'article.,fr_FR
 order_cancel_widget.cancel_order,Cancel Order,en_US
-order_cancel_widget.cancel_order,Bestellung Fermer,fr_FR
+order_cancel_widget.cancel_order,Annuler la commande,fr_FR
 order_cancel_widget.order.cancelled,Order was canceled successfully.,en_US
-order_cancel_widget.order.cancelled,Die Bestellung wurde erfolgreich storniert.,fr_FR
-product_cart_item.remove,× entfernen,fr_FR
+order_cancel_widget.order.cancelled,La commande a bien été annulé,fr_FR
+product_cart_item.remove,× retirer,fr_FR
 product_cart_item.remove,× remove,en_US
 mail.trans.availability_notification.subtitle,The wait is over! Add this product to your cart now.,en_US
-mail.trans.availability_notification.subtitle,Das Warten hat ein Ende! Du kannst diesen Artikel jetzt in deinen Warenkorb legen.,fr_FR
+mail.trans.availability_notification.subtitle,L'attente est terminée! Ajoutez ce produit à votre panier maintenant.,fr_FR
 mail.trans.availability_notification.title.part2,is available again!,en_US
-mail.trans.availability_notification.title.part2,wieder verfügbar!,fr_FR
+mail.trans.availability_notification.title.part2,est de nouveau disponible,fr_FR
 mail.trans.availability_notification_subscription.subtitle,You will receive an email when the product is available again.,en_US
-mail.trans.availability_notification_subscription.subtitle,"Du erhälst eine E-Mail, sobald der Artikel wieder verfügbar ist.",fr_FR
+mail.trans.availability_notification_subscription.subtitle,Vous recevrez un e-mail lorsque le produit sera à nouveau disponible.,fr_FR
 mail.trans.availability_notification_subscription.title,We just informed our purchase team about your subscription!,en_US
-mail.trans.availability_notification_subscription.title,Unser Einkaufsteam wurde über deine Anfrage informiert.,fr_FR
+mail.trans.availability_notification_subscription.title,Nous venons d'informer notre équipe d'achat de votre abonnement !,fr_FR
 mail.trans.availability_notification_unsubscribed.subtitle,You will not be notified when the product is available again.,en_US
-mail.trans.availability_notification_unsubscribed.subtitle,"Du wirst keine Benachrichtigung erhalten, wenn der Artikel wieder verfügbar ist.",fr_FR
+mail.trans.availability_notification_unsubscribed.subtitle,Vous ne serez pas averti lorsque le produit sera à nouveau disponible.,fr_FR
 mail.trans.availability_notification_unsubscribed.title.part1,Your subscription to,en_US
-mail.trans.availability_notification_unsubscribed.title.part1,Deine Anfrage zu,fr_FR
+mail.trans.availability_notification_unsubscribed.title.part1,Votre abonnement à,fr_FR
 mail.trans.availability_notification_unsubscribed.title.part2,was canceled,en_US
-mail.trans.availability_notification_unsubscribed.title.part2,wurde gelöscht.,fr_FR
+mail.trans.availability_notification_unsubscribed.title.part2,a été annulé,fr_FR
 mail.trans.common.go_to_shop,Go to shop,en_US
-mail.trans.common.go_to_shop,Zum Shop,fr_FR
+mail.trans.common.go_to_shop,Aller au shop,fr_FR
 mail.trans.common.hello_for_first_name,Hello,en_US
-mail.trans.common.hello_for_first_name,Hallo,fr_FR
+mail.trans.common.hello_for_first_name,Salut,fr_FR
 mail.trans.common.my_account,My Account,en_US
-mail.trans.common.my_account,Mein Konto,fr_FR
+mail.trans.common.my_account,Mon compte,fr_FR
 mail.trans.customer_registration.change_info,"You can change your info (delivery address, email address, password etc.) in My Account",en_US
-mail.trans.customer_registration.change_info,"Du kannst deine Angaben (Lieferadresse, E-Mail, Passwort usw.) hier ändern: Mein Konto",fr_FR
-mail.trans.customer_registration.registration_success,Your registration to the Spryker Shop was successful!,en_US
-mail.trans.customer_registration.registration_success,Die Registrierung im Spryker Shop war erfolgreich!,fr_FR
-mail.trans.customer_registration.title,Thank you for signing up with Spryker Shop!,en_US
-mail.trans.customer_registration.title,Vielen Dank für deine Registrierung im Spryker Shop,fr_FR
+mail.trans.customer_registration.change_info,"Vous pouvez modifier vos informations (adresse de livraison, adresse e-mail, mot de passe, etc.) dans Mon compte",fr_FR
+mail.trans.customer_registration.registration_success,Your registration to the Prodiz Shop was successful!,en_US
+mail.trans.customer_registration.registration_success,Votre inscription à la boutique Prodiz a réussi !,fr_FR
+mail.trans.customer_registration.title,Thank you for signing up with Prodiz Shop!,en_US
+mail.trans.customer_registration.title,Merci de vous être inscrit sur la boutique Prodiz !,fr_FR
 mail.trans.customer_restored_password_confirmation.title,Your password was changed successfully,en_US
-mail.trans.customer_restored_password_confirmation.title,Dein Passwort wurde erfolgreich geändert,fr_FR
+mail.trans.customer_restored_password_confirmation.title,Votre mot de passe a bien été changé,fr_FR
 mail.trans.customer_restore_password.change_password,Change password,en_US
-mail.trans.customer_restore_password.change_password,Passwort ändern,fr_FR
+mail.trans.customer_restore_password.change_password,Changer le mot de passe,fr_FR
 mail.trans.customer_restore_password.subtitle,"Somebody has requested a new password for your Spryker Shop account. If this was not you, please ignore this email. If it was you, please follow the instructions in the button below.",en_US
-mail.trans.customer_restore_password.subtitle,"Es wurde ein neues Passwort für dein Spryker Shop-Konto angefordert. Wenn du es nicht warst, kannst du diese E-Mail ignorieren. Wenn du es warst, klicke bitte den Knopf unten an:",fr_FR
-mail.trans.customer_restore_password.title,New password for your Spryker Shop account,en_US
-mail.trans.customer_restore_password.title,Neues Passwort für dein Spryker Shop-Konto,fr_FR
-mail.trans.footer.contact_email_address,info@spryker.com,en_US
-mail.trans.footer.contact_email_address,info@spryker.com,fr_FR
+mail.trans.customer_restore_password.subtitle,"Quelqu'un a demandé un nouveau mot de passe pour votre compte Spryker Shop. Si ce n'était pas vous, veuillez ignorer cet e-mail. Si c'était vous, veuillez suivre les instructions du bouton ci-dessous.",fr_FR
+mail.trans.customer_restore_password.title,New password for your Prodiz Shop account,en_US
+mail.trans.customer_restore_password.title,Nouveau mot de passe pour votre compte Prodiz,fr_FR
+mail.trans.footer.contact_email_address,info@prodiz.co,en_US
+mail.trans.footer.contact_email_address,info@prodiz.co,fr_FR
 mail.trans.footer.if_you_have_further_questions,"If you have any further questions, please contact our customer service at",en_US
-mail.trans.footer.if_you_have_further_questions,"Wenn du weitere Fragen hast, wende dich bitte an unseren Kundenservice unter",fr_FR
+mail.trans.footer.if_you_have_further_questions,"Si vous avez d'autres questions, veuillez contacter notre service client au",fr_FR
 mail.trans.footer.shop_address,Julie-Wolfthorn-Strasse 1,en_US
 mail.trans.footer.shop_address,Julie-Wolfthorn-Straße 2,fr_FR
 mail.trans.footer.shop_city,Berlin,en_US
@@ -3669,209 +3669,209 @@ mail.trans.footer.shop_name,Spryker Systems GmbH,fr_FR
 mail.trans.footer.shop_phone,+49 (0) 30 208 498 350,en_US
 mail.trans.footer.shop_phone,+49 (0) 30 208 498 351,fr_FR
 mail.trans.footer.shopping_experience,Enjoy your shopping experience.,en_US
-mail.trans.footer.shopping_experience,Genieße das Shopping mit uns.,fr_FR
+mail.trans.footer.shopping_experience,Profitez de votre expérience de magasinage.,fr_FR
 mail.trans.footer.shop_zip_code,10115,en_US
 mail.trans.footer.shop_zip_code,10115,fr_FR
-mail.trans.footer.your_team,Your Spryker team!,en_US
-mail.trans.footer.your_team,Dein Spryker Team!,fr_FR
-mail.trans.header.shop_name,Spryker Shop,en_US
-mail.trans.header.shop_name,Spryker Shop,fr_FR
+mail.trans.footer.your_team,Your Prodiz team!,en_US
+mail.trans.footer.your_team,La Team Prodiz !,fr_FR
+mail.trans.header.shop_name,Prodiz Shop,en_US
+mail.trans.header.shop_name,Prodiz Shop,fr_FR
 mail.trans.newsletter_subscribed.subtitle,We will do our best to deliver the most relevant and exciting news and updates.,en_US
-mail.trans.newsletter_subscribed.subtitle,"Wir werden unser Bestes tun, um dir die relevantesten und aufregendsten Nachrichten und Updates zu liefern.",fr_FR
+mail.trans.newsletter_subscribed.subtitle,Nous ferons de notre mieux pour fournir les nouvelles et les mises à jour les plus pertinentes et les plus intéressantes.,fr_FR
 mail.trans.newsletter_subscribed.title,We are thrilled you have signed up for our newsletter.,en_US
-mail.trans.newsletter_subscribed.title,"Wir freuen uns, dass du dich für unseren Newsletter angemeldet hast.",fr_FR
+mail.trans.newsletter_subscribed.title,Nous sommes ravis que vous vous soyez inscrit à notre newsletter.,fr_FR
 mail.trans.newsletter_unsubscribed.subtitle,Your email address has been unsubscribed from Spryker Shop newsletter. You can always manage your subscription in your customer profile.,en_US
-mail.trans.newsletter_unsubscribed.subtitle,"Deine E-Mail-Adresse wurde vom Spryker Shop Newsletter abgemeldet, aber du kannst dein Abo jederzeit in deinem Konto verwalten.",fr_FR
+mail.trans.newsletter_unsubscribed.subtitle,Votre adresse e-mail a été désabonnée de la newsletter Spryker Shop. Vous pouvez toujours gérer votre abonnement dans votre profil client.,fr_FR
 mail.trans.newsletter_unsubscribed.title,Sorry to see you go...,en_US
-mail.trans.newsletter_unsubscribed.title,"Es ist schade, dass du gehst...",fr_FR
+mail.trans.newsletter_unsubscribed.title,Désolé de vous voir partir...,fr_FR
 mail.trans.order.billing_address,Billing address,en_US
-mail.trans.order.billing_address,Rechnungsadresse,fr_FR
+mail.trans.order.billing_address,Adresse de facturation,fr_FR
 mail.trans.order.delivery_address,Delivery address,en_US
-mail.trans.order.delivery_address,Lieferadresse,fr_FR
+mail.trans.order.delivery_address,Adresse de livraison,fr_FR
 mail.trans.order.delivery_method,Shipment method,en_US
-mail.trans.order.delivery_method,Versandart,fr_FR
+mail.trans.order.delivery_method,Méthode d'envois,fr_FR
 mail.trans.order.discounts_total,Discounts,en_US
-mail.trans.order.discounts_total,Rabatt,fr_FR
+mail.trans.order.discounts_total,Réduction,fr_FR
 mail.trans.order.grand_total,Grand Total,en_US
-mail.trans.order.grand_total,Gesamtsumme,fr_FR
+mail.trans.order.grand_total,Total,fr_FR
 mail.trans.order.order_date,Order date,en_US
-mail.trans.order.order_date,Bestelldatum,fr_FR
+mail.trans.order.order_date,Date de commande,fr_FR
 mail.trans.order.order_details,Order details,en_US
-mail.trans.order.order_details,Bestellung,fr_FR
+mail.trans.order.order_details,Détail de commande,fr_FR
 mail.trans.order.order_reference,Order reference,en_US
-mail.trans.order.order_reference,Bestellnummer,fr_FR
+mail.trans.order.order_reference,Référence commande,fr_FR
 mail.trans.order.quantity,Qty,en_US
-mail.trans.order.quantity,Anzahl,fr_FR
+mail.trans.order.quantity,Qté,fr_FR
 mail.trans.order.requested_delivery_date,Requested delivery date,en_US
-mail.trans.order.requested_delivery_date,Gewünschtes Lieferdatum,fr_FR
+mail.trans.order.requested_delivery_date,Date de livraison désiré,fr_FR
 mail.trans.order.shipment_costs_total,Shipment costs (total),en_US
-mail.trans.order.shipment_costs_total,Lieferkosten (gesamt),fr_FR
+mail.trans.order.shipment_costs_total,Coût de livrasion (total),fr_FR
 mail.trans.order.shipment_for_number.part1,Shipment,en_US
-mail.trans.order.shipment_for_number.part1,Lieferung,fr_FR
+mail.trans.order.shipment_for_number.part1,Livraison,fr_FR
 mail.trans.order.shipment_for_number.part2,of,en_US
-mail.trans.order.shipment_for_number.part2,von,fr_FR
+mail.trans.order.shipment_for_number.part2,de,fr_FR
 mail.trans.order.subtotal,Subtotal,en_US
-mail.trans.order.subtotal,Zwischensumme,fr_FR
+mail.trans.order.subtotal,Total,fr_FR
 mail.trans.order.taxes,Taxes,en_US
-mail.trans.order.taxes,Steuern,fr_FR
+mail.trans.order.taxes,Taxes,fr_FR
 mail.trans.order_confirmation.subtitle,"We are writing to let you know that we recieved your order. You can expect a shipping confirmation by e-mail as soon as the order has been sent. We hope you like your order, but if you change your mind, please return it within 14 days.",en_US
-mail.trans.order_confirmation.subtitle,"Wir haben deine Bestellung erhalten. Du erhälst von uns eine Versandbestätigung per E-Mail, sobald die Bestellung verschickt wurde. Wir hoffen, dass dir deine Bestellung gefällt. Falls du deine Meinung änderst, kannst du deine Artikel innerhalb von 14 Tagen zurückschicken.",fr_FR
+mail.trans.order_confirmation.subtitle,"Nous vous écrivons pour vous informer que nous avons bien reçu votre commande. Vous pouvez vous attendre à une confirmation d'expédition par e-mail dès que la commande a été envoyée. Nous espérons que votre commande vous plaira, mais si vous changez d'avis, veuillez la retourner dans les 14 jours.",fr_FR
 mail.trans.order_confirmation.title,Thank you for shopping at Spryker Shop!,en_US
-mail.trans.order_confirmation.title,Vielen Dank für deinen Einkauf im Spryker Shop!,fr_FR
+mail.trans.order_confirmation.title,Merci d'avoir fait vos achats dans la boutique Prodiz !,fr_FR
 mail.trans.restore_password.change_password,Change password,en_US
-mail.trans.restore_password.change_password,Passwort ändern,fr_FR
+mail.trans.restore_password.change_password,Changer mot de passe,fr_FR
 mail.trans.restore_password.subtitle,"Somebody has requested a new password for your Spryker Back Office account. If it was not you, please ignore this email. If it was you, please follow the instructions in  the button bellow",en_US
-mail.trans.restore_password.subtitle,"Es wurde ein neues Passwort für dein Spryker Shop-Konto angefordert. Wenn du es nicht warst, kannst du diese E-Mail ignorieren. Wenn du es warst, klicke bitte den Knopf unten an:",fr_FR
+mail.trans.restore_password.subtitle,"Quelqu'un a demandé un nouveau mot de passe pour votre compte Spryker Back Office. Si ce n'était pas vous, veuillez ignorer cet e-mail. Si c'était vous, veuillez suivre les instructions dans le bouton ci-dessous",fr_FR
 mail.trans.restore_password.title,New password for your Spryker Back Office account,en_US
-mail.trans.restore_password.title,Neues Passwort für dein Spryker Back Office-Konto,fr_FR
+mail.trans.restore_password.title,Nouveau mot de passe pour votre compte back-office Prodiz,fr_FR
 mail.trans.order_shipped.title,Your order is on its way!,en_US
-mail.trans.order_shipped.title,Deine Bestellung ist unterwegs!,fr_FR
+mail.trans.order_shipped.title,Votre commande est sur son chemin!,fr_FR
 mail.trans.company_status.title,The status of your company has been changed to,en_US
-mail.trans.company_status.title,Der Status deines Unternehmens wurde geändert auf,fr_FR
+mail.trans.company_status.title,Le statut de votre entreprise a été changé en,fr_FR
 mail.trans.customer_registration.confirmation_link,Validate your email address,en_US
-mail.trans.customer_registration.confirmation_link,Bestätigen Sie Ihre E-Mail-Adresse,fr_FR
+mail.trans.customer_registration.confirmation_link,Validez votre adresse e-mail,fr_FR
 password.weak,Weak,en_US
-password.weak,Schwach,fr_FR
+password.weak,Faible,fr_FR
 password.medium,Medium,en_US
-password.medium,Mittel,fr_FR
+password.medium,Moyen,fr_FR
 password.strong,Strong,en_US
-password.strong,Stark,fr_FR
+password.strong,Fort,fr_FR
 password.very_strong,Very strong,en_US
-password.very_strong,Sehr stark,fr_FR
+password.very_strong,Très fort,fr_FR
 password.message,Try lengthening password or adding numbers or symbols.,en_US
-password.message,Versuchen Sie es zu verlängern oder Zahlen oder Symbole hinzuzufügen.,fr_FR
+password.message,Essayez d'allonger le mot de passe ou d'ajouter des chiffres ou des symboles.,fr_FR
 customer.password.error.deny_list,This password is considered common. Please use another one.,en_US
-customer.password.error.deny_list,Dieses Passwort ist zu allgemein. Bitte ein neues Passwort eingeben.,fr_FR
+customer.password.error.deny_list,Ce mot de passe est considéré comme trop commun. Merci d'en choisir un autre.,fr_FR
 customer.password.error.sequence,You repeated the same character too many times.,en_US
-customer.password.error.sequence,Es wurde zu oft das gleiche Zeichen verwendet.,fr_FR
+customer.password.error.sequence,Vous avez répété trop de fois le même caractère.,fr_FR
 customer.password.error.character_set,"Password must contain at least 1 character of each allowed character group: upper case, lower case, digit and a special character.",en_US
-customer.password.error.character_set,"Passwort muss mindestens 1 Zeichen von jeder erlaubten Zeichengruppe enthalten: Großschreibung, Kleinschreibung, Zahl und ein Sonderzeichen.",fr_FR
-error.429,Zu viele Anfragen,fr_FR
+customer.password.error.character_set,"Le mot de passe doit contenir au moins 1 caractère de chaque groupe de caractères autorisé : majuscule, minuscule, chiffre et un caractère spécial.",fr_FR
+error.429,Trop de demandes,fr_FR
 error.429,Too Many Requests,en_US
 security_blocker_page.error.account_blocked,Too many log in attempts from your address. Please wait %minutes% minutes before trying again.,en_US
-security_blocker_page.error.account_blocked,"Warten Sie bitte %minutes% Minuten, bevor Sie es erneut versuchen.",fr_FR
-payment_foreign.thank_you,Danke,fr_FR
+security_blocker_page.error.account_blocked,Trop de tentatives de connexion à partir de votre adresse. Veuillez patienter %minutes% minutes avant de réessayer.,fr_FR
+payment_foreign.thank_you,Merci,fr_FR
 payment_foreign.thank_you,Thank you,en_US
-payment_foreign.go_to_my_account,"Gehe zum ""Benutzerkonto""",fr_FR
+payment_foreign.go_to_my_account,"Aller à ""Mon compte""",fr_FR
 payment_foreign.go_to_my_account,"Go to ""My Account""",en_US
-payment_foreign.success.order.placement.message,Deine Bestellung ist erfolgreich bei uns eingegangen. Die Bestellbestätigung wurde soeben per E-Mail versendet. In deinem Benutzerkonto kannst deine Bestellung überprüfen und nachverfolgen.,fr_FR
+payment_foreign.success.order.placement.message,Votre commande a été payée avec succès. Vous recevrez votre e-mail de confirmation de commande dans quelques minutes. Vous pouvez vérifier et suivre votre commande dans votre compte.,fr_FR
 payment_foreign.success.order.placement.message,Your order has been paid successfully. You will receive your order confirmation email in a few minutes. You can check and track your order in your account.,en_US
-agent_page.error.customer_already_logged_in,Sie sind bereits als Kunde angemeldet. Bitte loggen Sie sich zuerst aus und fahren Sie dann fort,fr_FR
+agent_page.error.customer_already_logged_in,"Vous êtes déjà connecté en tant que client, veuillez d'abord vous déconnecter, puis continuer",fr_FR
 agent_page.error.customer_already_logged_in,"You are already logged in as customer, please logout first, then proceed",en_US
 customer.login.remember_me,Remember me,en_US
 customer.login.remember_me,Se souvenir de moi,fr_FR
 merchant.sold_by,Sold by:,en_US
 merchant.sold_by,Vendu par:,fr_FR
 merchant_search_widget.all_merchants,All Merchants,en_US
-merchant_search_widget.all_merchants,Alle Händler,fr_FR
+merchant_search_widget.all_merchants,Tous les vendeurs :,fr_FR
 merchant_search_widget.merchants,Merchants,en_US
-merchant_search_widget.merchants,Händler,fr_FR
+merchant_search_widget.merchants,Vendeurs,fr_FR
 merchant_profile.email,Email Address,en_US
 merchant_profile.email,Email,fr_FR
 merchant_profile.address,Address,en_US
 merchant_profile.address,Adresse,fr_FR
 merchant_profile.phone,Phone,en_US
-merchant_profile.phone,Telefon,fr_FR
+merchant_profile.phone,Téléphone,fr_FR
 merchant_profile.terms_and_conditions,Terms & Conditions,en_US
-merchant_profile.terms_and_conditions,AGB,fr_FR
+merchant_profile.terms_and_conditions,CGV,fr_FR
 merchant_profile.cancellation_policy,Cancellation Policy,en_US
-merchant_profile.cancellation_policy,Widerrufsbelehrung,fr_FR
+merchant_profile.cancellation_policy,Politique d'annulation,fr_FR
 merchant_profile.imprint,Imprint,en_US
-merchant_profile.imprint,Impressum,fr_FR
+merchant_profile.imprint,Impression,fr_FR
 merchant_profile.privacy,Data Privacy,en_US
-merchant_profile.privacy,Datenschutz,fr_FR
+merchant_profile.privacy,Confidentialité des données,fr_FR
 merchant_profile.delivery_time,Delivery Time,en_US
-merchant_profile.delivery_time,Lieferzeit,fr_FR
+merchant_profile.delivery_time,Heure de livraison,fr_FR
 merchant_product.message.invalid,"Product ""%sku%"" with Merchant ""%merchant_reference%"" not found.",en_US
-merchant_product.message.invalid,"Der Produkt ""%sku%"" mit dem Händler ""%merchant_reference%"" ist nicht gefunden.",fr_FR
+merchant_product.message.invalid,"Produit ""%sku%"" avec le marchand ""%merchant_reference%"" introuvable.",fr_FR
 merchant_product.sold_by,Sold by,en_US
-merchant_product.sold_by,Verkauft durch,fr_FR
+merchant_product.sold_by,Vendu par,fr_FR
 merchant_product_offer.view_seller,View Seller,en_US
-merchant_product_offer.view_seller,Händler ansehen,fr_FR
+merchant_product_offer.view_seller,Voir le vendeur,fr_FR
 merchant_product_offer.sold_by,Sold by,en_US
-merchant_product_offer.sold_by,Verkauft durch,fr_FR
+merchant_product_offer.sold_by,Vendu par,fr_FR
 merchant_product_offer_widget.merchant_name,Merchant,en_US
-merchant_product_offer_widget.merchant_name,Händler,fr_FR
+merchant_product_offer_widget.merchant_name,Vendeur,fr_FR
 product-offer.info.product-offer-inactive.removed,Inactive item %sku% was removed from your shopping cart.,en_US
-product-offer.info.product-offer-inactive.removed,Der inaktive Artikel %sku% wurde aus Ihrem Warenkorb entfernt.,fr_FR
+product-offer.info.product-offer-inactive.removed,L'article inactif %sku% a été supprimé de votre panier.,fr_FR
 product-offer.info.reference.invalid,Product offer reference not found for product with SKU '%sku%'.,en_US
-product-offer.info.reference.invalid,Produktangebotsreferenz für Produkt mit SKU '% sku%' nicht gefunden.,fr_FR
+product-offer.info.reference.invalid,Référence d'offre de produit introuvable pour le produit avec SKU '%sku%'.,fr_FR
 product-offer.message.not-active-or-approved,Product offer not active for product with SKU '%sku%'.,en_US
-product-offer.message.not-active-or-approved,Produktangebot ist inaktiv für Produkt mit SKU '%sku%'.,fr_FR
+product-offer.message.not-active-or-approved,L'offre de produit n'est pas active pour le produit avec le SKU '%sku%'.,fr_FR
 merchant_weekday_schedule.new_year,New Year's Day,en_US
-merchant_weekday_schedule.new_year,Neujahrstag,fr_FR
+merchant_weekday_schedule.new_year,Jour de l'an,fr_FR
 merchant_weekday_schedule.good_friday,Good Friday,en_US
-merchant_weekday_schedule.good_friday,Karfreitag,fr_FR
+merchant_weekday_schedule.good_friday,"Bon vendredi ",fr_FR
 merchant_weekday_schedule.easter_sunday,Easter Sunday,en_US
-merchant_weekday_schedule.easter_sunday,Ostersonntag,fr_FR
+merchant_weekday_schedule.easter_sunday,Dimanche de paques,fr_FR
 merchant_weekday_schedule.easter_monday,Easter Monday,en_US
-merchant_weekday_schedule.easter_monday,Ostermontag,fr_FR
+merchant_weekday_schedule.easter_monday,Lundi de paque,fr_FR
 merchant_weekday_schedule.may_day,May Day,en_US
-merchant_weekday_schedule.may_day,Maifeiertag,fr_FR
+merchant_weekday_schedule.may_day,May Day,fr_FR
 merchant_weekday_schedule.ascension_of_christ,Ascension of Christ,en_US
-merchant_weekday_schedule.ascension_of_christ,Christi Himmelfahrt,fr_FR
+merchant_weekday_schedule.ascension_of_christ,Ascension du christ,fr_FR
 merchant_weekday_schedule.whit_sunday,Whit Sunday,en_US
-merchant_weekday_schedule.whit_sunday,Pfingstsonntag,fr_FR
+merchant_weekday_schedule.whit_sunday,Dimanche de Pentecôte,fr_FR
 merchant_weekday_schedule.whit_monday,Whit Monday,en_US
-merchant_weekday_schedule.whit_monday,Pfingstmontag,fr_FR
+merchant_weekday_schedule.whit_monday,Lundi de Pentecôte,fr_FR
 merchant_weekday_schedule.corpus_christi,Corpus Christi,en_US
-merchant_weekday_schedule.corpus_christi,Fronleichnam,fr_FR
+merchant_weekday_schedule.corpus_christi,Corpus Christi,fr_FR
 merchant_weekday_schedule.day_of_german_unity,Day of German unity,en_US
-merchant_weekday_schedule.day_of_german_unity,Tag der Deutschen Einheit,fr_FR
+merchant_weekday_schedule.day_of_german_unity,Day of German unity,fr_FR
 merchant_weekday_schedule.all_saints_day,All Saints' Day,en_US
-merchant_weekday_schedule.all_saints_day,Allerheiligen,fr_FR
+merchant_weekday_schedule.all_saints_day,Toussaint,fr_FR
 merchant_weekday_schedule.1st_christmas_day,1st Christmas day,en_US
-merchant_weekday_schedule.1st_christmas_day,1. Weihnachtstag,fr_FR
+merchant_weekday_schedule.1st_christmas_day,Réveillon de noël,fr_FR
 merchant_weekday_schedule.2nd_christmas_day,2nd Christmas day,en_US
-merchant_weekday_schedule.2nd_christmas_day,2. Weihnachtstag,fr_FR
+merchant_weekday_schedule.2nd_christmas_day,Noël,fr_FR
 merchant_weekday_schedule.sunday_opening,Sunday Opening,en_US
-merchant_weekday_schedule.sunday_opening,Verkaufsoffener Sonntag,fr_FR
+merchant_weekday_schedule.sunday_opening,Ouverture dominicale,fr_FR
 merchant_opening_hours.opening_hours_title,Opening Hours,en_US
-merchant_opening_hours.opening_hours_title,Öffnungszeiten,fr_FR
+merchant_opening_hours.opening_hours_title,Horaires d'ouverture,fr_FR
 merchant_opening_hours.special_opening_hours_title,Special Opening Hours,en_US
-merchant_opening_hours.special_opening_hours_title,Besondere Öffnungszeiten,fr_FR
+merchant_opening_hours.special_opening_hours_title,Horaires spéciales,fr_FR
 merchant_opening_hours.public_holidays_title,Public Holidays,en_US
-merchant_opening_hours.public_holidays_title,Feiertage,fr_FR
+merchant_opening_hours.public_holidays_title,Vacances publiques,fr_FR
 merchant_opening_hours.opening_hours_closed,Closed,en_US
-merchant_opening_hours.opening_hours_closed,Geschlossen,fr_FR
+merchant_opening_hours.opening_hours_closed,Fermé,fr_FR
 merchant_opening_hours.day.title.monday,Monday,en_US
-merchant_opening_hours.day.title.monday,Montag,fr_FR
+merchant_opening_hours.day.title.monday,Lundi,fr_FR
 merchant_opening_hours.day.title.tuesday,Tuesday,en_US
-merchant_opening_hours.day.title.tuesday,Dienstag,fr_FR
+merchant_opening_hours.day.title.tuesday,Mardi,fr_FR
 merchant_opening_hours.day.title.wednesday,Wednesday,en_US
-merchant_opening_hours.day.title.wednesday,Mittwoch,fr_FR
+merchant_opening_hours.day.title.wednesday,Mercredi,fr_FR
 merchant_opening_hours.day.title.thursday,Thursday,en_US
-merchant_opening_hours.day.title.thursday,Donnerstag,fr_FR
+merchant_opening_hours.day.title.thursday,Jeudi,fr_FR
 merchant_opening_hours.day.title.friday,Friday,en_US
-merchant_opening_hours.day.title.friday,Freitag,fr_FR
+merchant_opening_hours.day.title.friday,Vendredi,fr_FR
 merchant_opening_hours.day.title.saturday,Saturday,en_US
-merchant_opening_hours.day.title.saturday,Samstag,fr_FR
+merchant_opening_hours.day.title.saturday,Samedi,fr_FR
 merchant_opening_hours.day.title.sunday,Sunday,en_US
-merchant_opening_hours.day.title.sunday,Sonntag,fr_FR
+merchant_opening_hours.day.title.sunday,Dimanche,fr_FR
 checkout.item.option.pre.condition.validation.error.exists,Product option of %name% is not available anymore.,en_US
-checkout.item.option.pre.condition.validation.error.exists,Produktoption von %name% ist nicht mehr verfügbar.,fr_FR
+checkout.item.option.pre.condition.validation.error.exists,L'option de produit de %name% n'est plus disponible.,fr_FR
 product.filter.merchant_name,Merchant,en_US
-product.filter.merchant_name,Händler,fr_FR
+product.filter.merchant_name,Vendeur,fr_FR
 merchant_sales_order.merchant_order_id,Merchant Order ID,en_US
-merchant_sales_order.merchant_order_id,Händlerbestell-ID,fr_FR
+merchant_sales_order.merchant_order_id,ID de commande vendeur,fr_FR
 merchant_sales_return.message.items_from_different_merchant_detected,There are products from different merchants in your order. You can only return products from one merchant at a time.,en_US
-merchant_sales_return.message.items_from_different_merchant_detected,Diese Bestellung enthält Artikel von verschiedenen Händlern. Sie können nur Artikel von einem Händler zur selben Zeit zurückschicken.,fr_FR
+merchant_sales_return.message.items_from_different_merchant_detected,Il y a des produits de différents marchands dans votre commande. Vous ne pouvez retourner les produits que d'un seul marchand à la fois.,fr_FR
 merchant_sales_return_widget.create_form.different_merchants_info,There are products from different merchants in your order. You can only return products from one merchant at a time.,en_US
-merchant_sales_return_widget.create_form.different_merchants_info,Diese Bestellung enthält Artikel von verschiedenen Händlern. Sie können nur Artikel von einem Händler zur selben Zeit zurückschicken.,fr_FR
+merchant_sales_return_widget.create_form.different_merchants_info,Il y a des produits de différents marchands dans votre commande. Vous ne pouvez retourner les produits que d'un seul marchand à la fois.,fr_FR
 shopping_list.pre.check.product_offer,Product Offer is not found.,en_US
-shopping_list.pre.check.product_offer,Produktangebot wurde nicht gefunden.,fr_FR
+shopping_list.pre.check.product_offer,L'offre de produit est introuvable.,fr_FR
 shopping_list.pre.check.product_offer.approved,Product Offer is not approved.,en_US
-shopping_list.pre.check.product_offer.approved,Product Offer ist nicht genehmigt.,fr_FR
+shopping_list.pre.check.product_offer.approved,L'offre de produit n'est pas approuvée.,fr_FR
 shopping_list.pre.check.product_offer.is_active,Product Offer is not active.,en_US
-shopping_list.pre.check.product_offer.is_active,Produktangebot ist inaktiv.,fr_FR
+shopping_list.pre.check.product_offer.is_active,L'offre de produit n'est pas active.,fr_FR
 shopping_list.pre.check.product_merchant_inactive,Merchant is inactive.,en_US
-shopping_list.pre.check.product_merchant_inactive,Der Händler ist nicht aktiv.,fr_FR
+shopping_list.pre.check.product_merchant_inactive,Le marchand est inactif.,fr_FR
 shopping_list.pre.check.product_merchant_not_approved,Merchant is not approved.,en_US
-shopping_list.pre.check.product_merchant_not_approved,Der Händler ist nicht bestätigt.,fr_FR
+shopping_list.pre.check.product_merchant_not_approved,Le marchand n'est pas approuvé.,fr_FR
 shopping_list.pre.check.product_offer.store_invalid,Product Offer is not equal to the current Store.,en_US
-shopping_list.pre.check.product_offer.store_invalid,Das Angebot gleicht nicht dem aktuellen Shop.,fr_FR
+shopping_list.pre.check.product_offer.store_invalid,L'offre de produit n'est pas égale à la boutique actuelle.,fr_FR
 shopping_list.pre.check.product.store_invalid,Product is not equal to the current Store.,en_US
-shopping_list.pre.check.product.store_invalid,Das Produkt gleicht nicht dem aktuellen Shop.,fr_FR
+shopping_list.pre.check.product.store_invalid,Le produit n'est pas égal au magasin actuel.,fr_FR
 sales-order-threshold.hard-minimum-threshold.us.usd.message,You should add items for {{threshold}} to pass a recommended threshold. You can't proceed with checkout,en_US
 sales-order-threshold.hard-maximum-threshold.us.usd.message,The cart value cannot be higher than {{threshold}}. Please remove some items to proceed with the order,en_US
 sales-order-threshold.soft-minimum-threshold.us.usd.message,"You need to add items for {{threshold}} to pass a recommended threshold, but if you want can proceed to checkout.",en_US
