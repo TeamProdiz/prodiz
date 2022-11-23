@@ -32,12 +32,11 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         ],
         'locales' => [
             // first entry is default
-            'fr' => 'fr_FR',
-            'en' => 'en_US',
             'de' => 'de_DE',
+            'en' => 'en_US',
         ],
         // first entry is default
-        'countries' => ['FR', 'DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
+        'countries' => ['DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
         // internal and shop
         'currencyIsoCode' => 'EUR',
         'currencyIsoCodes' => ['EUR', 'CHF'],
@@ -121,7 +120,6 @@ $stores['DE'] = [
     ],
     'locales' => [
         // first entry is default
-        'fr' => 'fr_FR',
         'en' => 'en_US',
         'de' => 'de_DE',
     ],
