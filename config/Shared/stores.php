@@ -121,7 +121,7 @@ $stores['DE'] = [
     ],
     'locales' => [
         // first entry is default
-        'de' => 'de_DE',
+        'fr' => 'fr_FR',
         'en' => 'en_US',
     ],
     // first entry is default
@@ -131,7 +131,7 @@ $stores['DE'] = [
     'currencyIsoCodes' => ['EUR'],
     'queuePools' => [
         'synchronizationPool' => [
-            'FR-connection',
+            'DE-connection',
         ],
     ],
     'storesWithSharedPersistence' => [],
@@ -163,6 +163,7 @@ $stores['US'] = [
     ],
     'locales' => [
         // first entry is default
+        'de' => 'fr_FR',
         'en' => 'en_US',
         'de' => 'de_DE',
     ],
