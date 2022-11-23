@@ -24,9 +24,6 @@ image:
         enabled-extensions:
             - blackfire
             - newrelic
-    node:
-        version: 16
-        npm: 8
 
 composer:
     mode: --no-dev
