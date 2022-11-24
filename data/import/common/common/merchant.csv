@@ -1,4 +1,4 @@
-merchant_reference,merchant_name,registration_number,status,email,is_active,url.de_DE,url.en_US
+merchant_reference,merchant_name,registration_number,status,email,is_active,url.fr_FR,url.en_US
 MER000001,Products Restrictions Merchant,1,approved,demo-restrictions-1@merchant.com,1,/de/merchant/demo-restrictions-1,/en/merchant/demo-restrictions-1
 MER000002,Prices Merchant,2,approved,demo-prices-1@merchant.com,1,/de/merchant/demo-prices-1,/en/merchant/demo-prices-1
 MER000003,Kudu Merchant,3,approved,kudu-merchant-1@merchant.com,1,/de/merchant/kudu-merchant-1,/en/merchant/kudu-merchant-1

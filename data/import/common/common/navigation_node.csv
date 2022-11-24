@@ -1,4 +1,4 @@
-navigation_key,node_key,parent_node_key,node_type,title.en_US,url.en_US,css_class.en_US,title.de_DE,url.de_DE,css_class.de_DE,valid_from,valid_to
+navigation_key,node_key,parent_node_key,node_type,title.en_US,url.en_US,css_class.en_US,title.fr_FR,url.fr_FR,css_class.fr_FR,valid_from,valid_to
 MAIN_NAVIGATION,node_key_1,,category,Stationery,/en/stationery,,Bürobedarf,/de/bürobedarf,,,
 MAIN_NAVIGATION,node_key_2,node_key_1,category,Writing Materials,/en/stationery/writing-materials,,Schreibwaren,/de/bürobedarf/schreibwaren,,,
 MAIN_NAVIGATION,node_key_3,node_key_2,category,Pens,/en/stationery/writing-materials/pens,,Kugelschreiber,/de/bürobedarf/schreibwaren/kugelschreiber,,,
