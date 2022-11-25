@@ -21,7 +21,7 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
                     'datetime' => 'Y-m-d H:i:s',
                 ],
             ],
-            // settings for cdontexts (overwrite shared)
+            // settings for contexts (overwrite shared)
             'yves' => [],
             'zed' => [
                 'dateFormat' => [
@@ -32,14 +32,14 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         ],
         'locales' => [
             // first entry is default
-            'de' => 'de_DE',
             'en' => 'en_US',
+            'de' => 'de_DE',
         ],
         // first entry is default
-        'countries' => ['DE'],
+        'countries' => ['DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
         // internal and shop
         'currencyIsoCode' => 'EUR',
-        'currencyIsoCodes' => ['EUR'],
+        'currencyIsoCodes' => ['EUR', 'CHF'],
         'queuePools' => [
             'synchronizationPool' => [],
         ],
@@ -74,7 +74,6 @@ if (!empty(getenv('SPRYKER_ACTIVE_STORES'))) {
         'locales' => [
             // first entry is default
             'en' => 'en_US',
-            'de' => 'de_DE',
         ],
         // first entry is default
         'countries' => ['US'],
@@ -121,21 +120,27 @@ $stores['DE'] = [
     ],
     'locales' => [
         // first entry is default
-        'fr' => 'fr_FR',
         'en' => 'en_US',
+        'de' => 'de_DE',
     ],
     // first entry is default
-    'countries' => ['DE', 'FR'],
+    'countries' => ['DE', 'AT', 'NO', 'CH', 'ES', 'GB'],
     // internal and shop
     'currencyIsoCode' => 'EUR',
-    'currencyIsoCodes' => ['EUR'],
+    'currencyIsoCodes' => ['EUR', 'CHF'],
     'queuePools' => [
         'synchronizationPool' => [
+            'AT-connection',
             'DE-connection',
         ],
     ],
-    'storesWithSharedPersistence' => [],
+    'storesWithSharedPersistence' => ['AT'],
 ];
+
+$stores['AT'] = [
+        'storesWithSharedPersistence' => ['DE'],
+    ] + $stores['DE'];
+
 $stores['US'] = [
     // different contexts
     'contexts' => [
@@ -163,9 +168,7 @@ $stores['US'] = [
     ],
     'locales' => [
         // first entry is default
-        'de' => 'fr_FR',
         'en' => 'en_US',
-        'de' => 'de_DE',
     ],
     // first entry is default
     'countries' => ['US'],
