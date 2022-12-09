@@ -21,6 +21,7 @@ use SprykerShop\Yves\CustomerReorderWidget\Plugin\CustomerPage\CustomerReorderWi
 
 class CustomerPageDependencyProvider extends SprykerShopCustomerPageDependencyProvider
 {
+    public const CLIENT_TRAINING = 'CLIENT_TRAINING';
     /**
      * @var string
      */
@@ -34,9 +35,24 @@ class CustomerPageDependencyProvider extends SprykerShopCustomerPageDependencyPr
     public function provideDependencies(Container $container): Container
     {
         $container = parent::provideDependencies($container);
+        $container = $this->addTrainingClient($container);
 
         $container = $this->addPyzSessionClient($container);
 
+        return $container;
+    }
+
+    /**
+     *
+     * @param Container $container
+     * @return void
+     */
+    protected function addTrainingClient(Container $container)
+    {
+        $container->set(static::CLIENT_TRAINING, function (Container $container) {
+            return $container->getLocator()->training()->client();
+        });
+ 
         return $container;
     }
 

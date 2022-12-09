@@ -1,22 +1,35 @@
 <?php
-
-/**
- * This file is part of the Spryker Commerce OS.
- * For full license information, please view the LICENSE file that was distributed with this source code.
- */
-
 namespace Pyz\Yves\CustomerPage;
 
-use Spryker\Client\Session\SessionClientInterface;
+use Pyz\Client\Training\TrainingClientInterface;
+use Pyz\Yves\CustomerPage\Form\FormFactory;
+use Pyz\Yves\CustomerPage\Form\Transformer\AntelopeTransformer;
 use SprykerShop\Yves\CustomerPage\CustomerPageFactory as SprykerCustomerPageFactory;
 
 class CustomerPageFactory extends SprykerCustomerPageFactory
 {
     /**
-     * @return \Spryker\Client\Session\SessionClientInterface
+     * @return void
      */
-    public function getPyzSessionClient(): SessionClientInterface
+    public function createCustomerFormFactory()
     {
-        return $this->getProvidedDependency(CustomerPageDependencyProvider::PYZ_CLIENT_SESSION);
+        return new FormFactory();
+    }
+    /**
+     * @return AntelopeTransformer
+     */
+    public function createAntelopeTransformer(): AntelopeTransformer
+    {
+       return new AntelopeTransformer(
+           $this->getTrainingClient()
+        );
+    }
+    /**
+     * @return TrainingClientInterface
+     */
+    public function getTrainingClient(): TrainingClientInterface
+    {
+        return $this->getProvidedDependency(CustomerPageDependencyProvider::CLIENT_TRAINING);
     }
 }
+
