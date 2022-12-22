@@ -657,4 +657,19 @@
         <controller>products</controller>
         <action>index</action>
     </product-merchant-portal-gui>
+    <hello-world>
+        <label>Training</label>
+       <title>Training</title>
+       <bundle>training</bundle>
+       <pages>
+           <hello-antelopes>
+                <label>Hello World</label>
+                <title>Hello World</title>
+                <bundle>training</bundle>
+                <controller>hello</controller>
+                <action>index</action> 
+                <visible>1</visible>
+           </hello-antelopes>
+       </pages>
+   </hello-world>
 </config>
