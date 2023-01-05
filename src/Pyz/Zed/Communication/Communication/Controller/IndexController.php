@@ -1,10 +1,10 @@
 <?php
 
-namespace Pyz\Zed\Training\Communication\Controller;
+namespace Pyz\Zed\Communication\Communication\Controller;
 
 use Spryker\Zed\Kernel\Communication\Controller\AbstractController;
 
-class HelloController extends AbstractController
+class IndexController extends AbstractController
 {
     /**
      * @return array
