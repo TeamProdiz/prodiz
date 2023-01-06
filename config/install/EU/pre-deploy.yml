@@ -5,53 +5,11 @@ stores:
     - DE
 
 sections:
-    scheduler-clean:
+    scheduler-stop:
         scheduler-clean:
-            command: "vendor/bin/console scheduler:clean -vvv --no-ansi || true"
+            command: 'vendor/bin/console scheduler:suspend -vvv --no-ansi'
             stores: true
-
-    clean-storage:
-        clean-storage:
-            command: "vendor/bin/console storage:delete -vvv --no-ansi"
-            stores: true
-
-        clean-search:
-            command: "vendor/bin/console elasticsearch:index:delete -vvv --no-ansi"
-            stores: true
-
-        clean-db:
-            command: "vendor/bin/console propel:tables:drop -vvv --no-ansi"
-
-    init-storage:
-        setup-search-create-sources:
-            command: "vendor/bin/console search:setup:sources -vvv --no-ansi"
-            stores: true
-
-    init-storages-per-region:
-        propel-copy-schema:
-            command: "vendor/bin/console propel:schema:copy -vvv --no-ansi"
-
-        propel-postgres-compatibility:
-            command: "vendor/bin/console propel:pg-sql-compat -vvv --no-ansi"
-
-        propel-migration-delete:
-            command: "vendor/bin/console propel:migration:delete -vvv --no-ansi"
-
-        propel-tables-drop:
-            command: "vendor/bin/console propel:tables:drop -vvv --no-ansi"
-
-        propel-diff:
-            command: "vendor/bin/console propel:diff -vvv --no-ansi"
-
-        propel-migrate:
-            command: "vendor/bin/console propel:migrate -vvv --no-ansi"
-
-        propel-migration-cleanup:
-            command: "vendor/bin/console propel:migration:delete -vvv --no-ansi"
-
-        init-database:
-            command: "vendor/bin/console setup:init-db -vvv --no-ansi"
-
+            
     demodata:
         import-eu-region-demodata:
             command: "vendor/bin/console data:import --config=data/import/production/full_EU.yml"
