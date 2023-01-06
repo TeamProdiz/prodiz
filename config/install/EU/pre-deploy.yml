@@ -9,7 +9,7 @@ sections:
         scheduler-clean:
             command: 'vendor/bin/console scheduler:suspend -vvv --no-ansi'
             stores: true
-            
+    
     demodata:
         import-eu-region-demodata:
             command: "vendor/bin/console data:import --config=data/import/production/full_EU.yml"
@@ -19,9 +19,4 @@ sections:
 
         check-product-validity:
             command: "vendor/bin/console product:check-validity"
-            stores: true
-
-    scheduler-start:
-        scheduler-setup:
-            command: "vendor/bin/console scheduler:setup -vvv --no-ansi || true"
             stores: true
