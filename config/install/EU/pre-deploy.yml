@@ -31,3 +31,9 @@ sections:
         scheduler-setup:
             command: "vendor/bin/console scheduler:setup -vvv --no-ansi"
             stores: true
+    
+    demodata:
+        import-eu-region-demodata:
+            command: 'vendor/bin/console data:import --config=data/import/local/full_Prodiz.yml'
+            stores:
+                - DE
