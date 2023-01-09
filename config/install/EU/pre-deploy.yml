@@ -33,7 +33,7 @@ sections:
             stores: true
     
     demodata:
-        update-product-labels:
-            command: 'vendor/bin/console product-label:relations:update'
+        import-eu-region-demodata:
+            command: 'vendor/bin/console data:import --config=data/import/local/full_EU.yml'
             stores:
                 - DE
