@@ -44,5 +44,5 @@ actions:
   
   - data_entity: product-management-attribute
     source: data/import/common/common/product_management_attribute.csv
-  - data_entity: product-concrete
-    source: data/import/common/common/product_concrete.csv
+  - data_entity: product-image
+    source: data/import/common/common/product_image.csv
