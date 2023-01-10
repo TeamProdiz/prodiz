@@ -39,3 +39,5 @@ actions:
     source: data/import/common/common/category_template.csv
   - data_entity: category
     source: data/import/common/common/category.csv
+  - data_entity: cms-block
+    source: data/import/common/common/cms_block.csv
