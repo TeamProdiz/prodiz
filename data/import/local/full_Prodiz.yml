@@ -44,5 +44,5 @@ actions:
   
   - data_entity: product-management-attribute
     source: data/import/common/common/product_management_attribute.csv
-  - data_entity: product-image
-    source: data/import/common/common/product_image.csv
+  - data_entity: product-price
+    source: data/import/common/DE/product_price.csv
