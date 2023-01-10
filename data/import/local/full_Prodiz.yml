@@ -39,8 +39,7 @@ actions:
     source: data/import/common/common/category_template.csv
   - data_entity: category
     source: data/import/common/common/category.csv
-  
-
+#5. COntent Management Setup import
   - data_entity: navigation
     source: data/import/common/common/navigation.csv
   - data_entity: cms-template
@@ -48,3 +47,7 @@ actions:
   - data_entity: cms-block
     source: data/import/common/common/cms_block.csv
     
+  - data_entity: content-banner
+    source: data/import/common/common/content_banner.csv
+  - data_entity: content-navigation
+    source: data/import/common/common/content_navigation.csv
