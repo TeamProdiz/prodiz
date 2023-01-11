@@ -55,5 +55,5 @@ actions:
   - data_entity: cms-slot
     source: data/import/common/common/cms_slot.csv
 
-  - data_entity: cms-slot-block
-    source: data/import/common/common/cms_slot_block.csv
+  - data_entity: cms-page-store
+    source: data/import/common/DE/cms_page_store.csv
