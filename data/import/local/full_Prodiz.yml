@@ -67,3 +67,5 @@ actions:
   #7. B2B Setup import
   - data_entity: company
     source : data/import/common/common/company.csv
+  - data_entity: company-business-unit
+    source : data/import/common/common/company_business_unit.csv
