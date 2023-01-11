@@ -75,5 +75,6 @@ actions:
     source : data/import/common/common/company_unit_address_label.csv
   - data_entity: company-unit-address-label-relation
     source : data/import/common/common/company_unit_address_label_relation.csv
-  - data_entity: company-user
-    source: data/import/common/common/company_user.csv
+  - data_entity: company-business-unit-user
+    source: data/import/common/common/company_business_unit_user.csv
+  
