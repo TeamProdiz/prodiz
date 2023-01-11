@@ -69,3 +69,5 @@ actions:
     source : data/import/common/common/company.csv
   - data_entity: company-business-unit
     source : data/import/common/common/company_business_unit.csv
+  - data_entity: company-unit-address
+    source : data/import/common/common/company_unit_address.csv
