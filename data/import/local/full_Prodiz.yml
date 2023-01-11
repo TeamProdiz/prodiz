@@ -39,7 +39,8 @@ actions:
     source: data/import/common/common/category_template.csv
   - data_entity: category
     source: data/import/common/common/category.csv
-#5. COntent Management Setup import
+
+#5. Content Management Setup import
   - data_entity: navigation
     source: data/import/common/common/navigation.csv
   - data_entity: cms-template
@@ -62,3 +63,7 @@ actions:
   #6. Navigation Setup import
   - data_entity: navigation-node
     source: data/import/common/common/navigation_node.csv
+
+  #7. B2B Setup import
+  - data_entity: company
+    source : data/import/common/common/company.csv

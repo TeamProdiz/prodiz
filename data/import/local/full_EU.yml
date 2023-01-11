@@ -52,22 +52,29 @@ actions:
     source: data/import/common/common/category.csv
   - data_entity: category-store
     source: data/import/common/DE/category_store.csv
+    # category-store ne fonctionne pas
   - data_entity: category-store
     source: data/import/common/AT/category_store.csv
+    # category-store ne fonctionne pas
   - data_entity: product-attribute-key
     source: data/import/common/common/product_attribute_key.csv
   - data_entity: product-management-attribute
     source: data/import/common/common/product_management_attribute.csv
   - data_entity: product-abstract
     source: data/import/common/common/product_abstract.csv
+    # product-abstract ne fonctionne pas
   - data_entity: product-concrete
     source: data/import/common/common/product_concrete.csv
+    # product-concrete ne fonctionne pas
   - data_entity: product-image
     source: data/import/common/common/product_image.csv
+    # product-image ne fonctionne pas
   - data_entity: product-price
     source: data/import/common/DE/product_price.csv
+    # product-price ne fonctionne pas
   - data_entity: product-price
     source: data/import/common/AT/product_price.csv
+    # product-price ne fonctionne pas
   - data_entity: product-price-schedule
     source: data/import/common/DE/product_price_schedule.csv
   - data_entity: product-price-schedule
@@ -172,12 +179,15 @@ actions:
     source: data/import/common/common/cms_block.csv
   - data_entity: content-banner
     source: data/import/common/common/content_banner.csv
+  # content-banner ne fonctionne pas
   - data_entity: content-navigation
     source: data/import/common/common/content_navigation.csv
   - data_entity: content-product-abstract-list
     source: data/import/common/common/content_product_abstract_list.csv
+  # content-product-abstract-list ne fonctionne pas
   - data_entity: content-product-set
     source: data/import/common/common/content_product_set.csv
+  # content-product-set ne fonctionne pas
   - data_entity: cms-page
     source: data/import/common/common/cms_page.csv
   - data_entity: cms-slot-template
@@ -186,6 +196,7 @@ actions:
     source: data/import/common/common/cms_slot.csv
   - data_entity: cms-slot-block
     source: data/import/common/common/cms_slot_block.csv
+  # cms-slot-block ne fonctionne pas
   # Store relation
   - data_entity: cms-page-store
     source: data/import/common/DE/cms_page_store.csv
@@ -201,7 +212,7 @@ actions:
     source: data/import/common/common/navigation_node.csv
 
 
-#6. B2B Setup import
+#7. B2B Setup import
   - data_entity: company
     source : data/import/common/common/company.csv
   - data_entity: company-business-unit
@@ -293,7 +304,7 @@ actions:
   - data_entity: quote-request-version
     source: data/import/common/common/quote_request_version.csv
 
-# Marketplace
+#8 Marketplace
   - data_entity: merchant-user
     source: data/import/common/common/marketplace/merchant_user.csv
   - data_entity: merchant-profile
@@ -317,7 +328,7 @@ actions:
   - data_entity: merchant-product-approval-status-default
     source: data/import/common/common/marketplace/merchant_product_approval_status_default.csv
 
-#7. Miscellaneous Setup import
+#9. Miscellaneous Setup import
   - data_entity: comment
     source: data/import/common/DE/comment.csv
   - data_entity: comment
