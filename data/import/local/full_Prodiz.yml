@@ -48,5 +48,5 @@ actions:
     source: data/import/common/common/cms_block.csv
   - data_entity: content-navigation
     source: data/import/common/common/content_navigation.csv
-  - data_entity: content-product-set
-    source: data/import/common/common/content_product_set.csv
+  - data_entity: cms-page
+    source: data/import/common/common/cms_page.csv
