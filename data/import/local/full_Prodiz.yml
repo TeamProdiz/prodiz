@@ -83,9 +83,9 @@ actions:
     source : data/import/common/common/company_role_permission.csv
   - data_entity: merchant
     source : data/import/common/common/merchant.csv
-
   - data_entity: merchant-store
     source: data/import/common/DE/merchant_store.csv
-  - data_entity: merchant-product-offer
-    source: data/import/common/common/marketplace/merchant_product_offer.csv
+  
+  - data_entity: merchant-product-offer-store
+    source: data/import/common/DE/merchant_product_offer_store.csv
   
