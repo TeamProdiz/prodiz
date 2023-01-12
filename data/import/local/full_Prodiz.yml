@@ -86,6 +86,6 @@ actions:
   - data_entity: merchant-store
     source: data/import/common/DE/merchant_store.csv
   
-  - data_entity: price-product-offer
-    source: data/import/common/DE/price_product_offer.csv
+  - data_entity: merchant-stock
+    source: data/import/common/common/marketplace/merchant_stock.csv
   
