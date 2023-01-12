@@ -79,3 +79,5 @@ actions:
     source: data/import/common/common/company_business_unit_address.csv
   - data_entity: company-role
     source : data/import/common/common/company_role.csv
+  - data_entity: company-role-permission
+    source : data/import/common/common/company_role_permission.csv
