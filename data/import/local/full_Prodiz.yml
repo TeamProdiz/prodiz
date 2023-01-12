@@ -84,5 +84,3 @@ actions:
   
   - data_entity: company-user-role
     source : data/import/common/common/company_user_role.csv
-  - data_entity: company-user-on-behalf
-    source: data/import/common/common/company_user_on_behalf.csv
