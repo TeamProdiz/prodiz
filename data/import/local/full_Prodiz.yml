@@ -97,5 +97,5 @@ actions:
     source: data/import/common/common/marketplace/merchant_profile_address.csv
 
   - data_entity: merchant-relationship-sales-order-threshold
-    source: data/import/common/DE/sales_order_threshold_per_merchant_relationship.csv
+    source: data/import/common/AT/sales_order_threshold_per_merchant_relationship.csv
   
