@@ -92,5 +92,6 @@ actions:
   - data_entity: stock-store
     source: data/import/common/DE/marketplace/warehouse_store.csv
 
-  - data_entity: product-offer-stock
-    source: data/import/common/common/marketplace/product_offer_stock.csv
+  - data_entity: merchant-profile
+    source: data/import/common/common/marketplace/merchant_profile.csv
+  
