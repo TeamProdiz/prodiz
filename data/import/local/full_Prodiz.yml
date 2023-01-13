@@ -90,4 +90,5 @@ actions:
   
   - data_entity: stock-address
     source: data/import/common/common/marketplace/warehouse_address.csv
-  
+  - data_entity: stock-store
+    source: data/import/common/DE/marketplace/warehouse_store.csv
