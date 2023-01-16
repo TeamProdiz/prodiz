@@ -52,29 +52,29 @@ actions:
     source: data/import/common/common/category.csv
   - data_entity: category-store
     source: data/import/common/DE/category_store.csv
-    # category-store ne fonctionne pas
+    # category-store doesn't work
   - data_entity: category-store
     source: data/import/common/AT/category_store.csv
-    # category-store ne fonctionne pas
+    # category-store doesn't work
   - data_entity: product-attribute-key
     source: data/import/common/common/product_attribute_key.csv
   - data_entity: product-management-attribute
     source: data/import/common/common/product_management_attribute.csv
   - data_entity: product-abstract
     source: data/import/common/common/product_abstract.csv
-    # product-abstract ne fonctionne pas
+    # product-abstract doesn't work
   - data_entity: product-concrete
     source: data/import/common/common/product_concrete.csv
-    # product-concrete ne fonctionne pas
+    # product-concrete doesn't work
   - data_entity: product-image
     source: data/import/common/common/product_image.csv
-    # product-image ne fonctionne pas
+    # product-image doesn't work
   - data_entity: product-price
     source: data/import/common/DE/product_price.csv
-    # product-price ne fonctionne pas
+    # product-price doesn't work
   - data_entity: product-price
     source: data/import/common/AT/product_price.csv
-    # product-price ne fonctionne pas
+    # product-price doesn't work
   - data_entity: product-price-schedule
     source: data/import/common/DE/product_price_schedule.csv
   - data_entity: product-price-schedule
@@ -179,15 +179,15 @@ actions:
     source: data/import/common/common/cms_block.csv
   - data_entity: content-banner
     source: data/import/common/common/content_banner.csv
-  # content-banner ne fonctionne pas
+  # content-banner doesn't work
   - data_entity: content-navigation
     source: data/import/common/common/content_navigation.csv
   - data_entity: content-product-abstract-list
     source: data/import/common/common/content_product_abstract_list.csv
-  # content-product-abstract-list ne fonctionne pas
+  # content-product-abstract-list doesn't work
   - data_entity: content-product-set
     source: data/import/common/common/content_product_set.csv
-  # content-product-set ne fonctionne pas
+  # content-product-set doesn't work
   - data_entity: cms-page
     source: data/import/common/common/cms_page.csv
   - data_entity: cms-slot-template
@@ -196,7 +196,7 @@ actions:
     source: data/import/common/common/cms_slot.csv
   - data_entity: cms-slot-block
     source: data/import/common/common/cms_slot_block.csv
-  # cms-slot-block ne fonctionne pas
+  # cms-slot-block doesn't work
   # Store relation
   - data_entity: cms-page-store
     source: data/import/common/DE/cms_page_store.csv
@@ -224,10 +224,10 @@ actions:
     source : data/import/common/common/company_unit_address_label_relation.csv
   - data_entity: company-user
     source: data/import/common/common/company_user.csv
-  # company-user ne fonctionne pas
+  # company-user doesn't work
   - data_entity: company-business-unit-user
     source: data/import/common/common/company_business_unit_user.csv
-  # company-business-unit-user ne fonctionne pas
+  # company-business-unit-user doesn't work
   - data_entity: company-business-unit-address
     source: data/import/common/common/company_business_unit_address.csv
   - data_entity: company-role
@@ -236,9 +236,10 @@ actions:
     source : data/import/common/common/company_role_permission.csv
   - data_entity: company-user-role
     source : data/import/common/common/company_user_role.csv
-    # company-user-on-behalf ne fonctionne pas
+    # company-user-on-role doesn't work
   - data_entity: company-user-on-behalf
     source: data/import/common/common/company_user_on_behalf.csv
+    # company-user-on-behalf doesn't work
   - data_entity: merchant
     source : data/import/common/common/merchant.csv
   - data_entity: merchant-store
@@ -247,14 +248,18 @@ actions:
     source: data/import/common/DE/merchant_store.csv
   - data_entity: merchant-product-offer
     source: data/import/common/common/marketplace/merchant_product_offer.csv
+  # merchant-product-offer doesn't work
   - data_entity: merchant-product-offer-store
     source: data/import/common/DE/merchant_product_offer_store.csv
+  # merchant-product-offer-store doesn't work
   - data_entity: merchant-product-offer-store
     source: data/import/common/AT/merchant_product_offer_store.csv
   - data_entity: product-offer-validity
     source: data/import/common/common/marketplace/product_offer_validity.csv
+  # product-offer-validity doesn't work
   - data_entity: price-product-offer
     source: data/import/common/DE/price_product_offer.csv
+  # price-product-offer doesn't work
   - data_entity: price-product-offer
     source: data/import/common/AT/price_product_offer.csv
   - data_entity: merchant-stock
@@ -267,38 +272,50 @@ actions:
     source: data/import/common/AT/marketplace/warehouse_store.csv
   - data_entity: product-stock
     source: data/import/common/common/marketplace/product_stock.csv
+  # product-stock doesn't work
   - data_entity: product-offer-stock
     source: data/import/common/common/marketplace/product_offer_stock.csv
+  # product-offer-stock doesn't work
   - data_entity: merchant-profile
     source: data/import/common/common/marketplace/merchant_profile.csv
   - data_entity: merchant-profile-address
     source: data/import/common/common/marketplace/merchant_profile_address.csv
   - data_entity: merchant-relationship
     source : data/import/common/common/merchant_relationship.csv
+  # merchant-relationship doesn't work
   - data_entity: merchant-relationship-product-list
     source : data/import/common/common/merchant_relation_to_product_list.csv
+  # merchant-relationship-product-list doesn't work
   - data_entity: merchant-relationship-sales-order-threshold
     source: data/import/common/DE/sales_order_threshold_per_merchant_relationship.csv
+  # merchant-relationship-sales-order-threshold doesn't work
   - data_entity: merchant-relationship-sales-order-threshold
     source: data/import/common/AT/sales_order_threshold_per_merchant_relationship.csv
   - data_entity: product-price-merchant-relationship
     source: data/import/common/DE/price_product_merchant_relationship.csv
+  # product-price-merchant-relationship doesn't
   - data_entity: product-price-merchant-relationship
     source: data/import/common/AT/price_product_merchant_relationship.csv
   - data_entity: shopping-list
     source: data/import/common/common/shopping_list.csv
+  # shopping-list doesn't work
   - data_entity: shopping-list-item
     source: data/import/common/common/shopping_list_item.csv
+  # shopping-list-item doesn't work
   - data_entity: shopping-list-company-user
     source: data/import/common/common/shopping_list_company_user.csv
+  # shopping-list-company-user doesn't work
   - data_entity: shopping-list-company-business-unit
     source: data/import/common/common/shopping_list_company_business_unit.csv
+  # shopping-list-company-business-unit doesn't work
   - data_entity: multi-cart
     source: data/import/common/DE/multi_cart.csv
+  # multi-cart doesn't work
   - data_entity: multi-cart
     source: data/import/common/AT/multi_cart.csv
   - data_entity: shared-cart
     source: data/import/common/DE/shared_cart.csv
+  # shared-cart doesn't work
   - data_entity: shared-cart
     source: data/import/common/AT/shared_cart.csv
   - data_entity: quote-request

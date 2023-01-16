@@ -96,5 +96,5 @@ actions:
   - data_entity: merchant-profile-address
     source: data/import/common/common/marketplace/merchant_profile_address.csv
 
-  - data_entity: shared-cart
-    source: data/import/common/DE/shared_cart.csv
+  - data_entity: quote-request
+    source: data/import/common/common/quote_request.csv
