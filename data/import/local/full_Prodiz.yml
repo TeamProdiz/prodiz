@@ -93,5 +93,5 @@ actions:
     source: data/import/common/common/marketplace/merchant_profile_address.csv
 
   #8 Marketplace
-  - data_entity: merchant-category
-    source: data/import/common/common/marketplace/merchant_category.csv
+  - data_entity: merchant-oms-process
+    source: data/import/common/common/marketplace/merchant_oms_process.csv
