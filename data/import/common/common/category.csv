@@ -1,8 +1,5 @@
-category_key,parent_category_key,name.de_DE,meta_title.de_DE,meta_description.de_DE,meta_keywords.de_DE,is_active,is_in_menu,is_clickable,is_searchable,is_root,is_main,node_order,template_name,name.en_US,meta_title.en_US,meta_description.en_US,meta_keywords.en_US,name.de_DE,meta_title.de_DE,meta_description.de_DE,meta_keywords.de_DE
-prodizshop,,Prodizshop,Prodizshop,Prodizshop,Prodizshop,1,1,1,0,1,1,,Catalog (default),Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop
+category_key,parent_category_key,name.de_DE,meta_title.de_DE,meta_description.de_DE,meta_keywords.de_DE,is_active,is_in_menu,is_clickable,is_searchable,is_root,is_main,node_order,template_name,name.en_US,meta_title.en_US,meta_description.en_US,meta_keywords.en_US,name.fr_FR,meta_title.fr_FR,meta_description.fr_FR,meta_keywords.fr_FR
 PRO_1,prodizshop,Essen,Essen,Essen,Essen,1,1,1,1,0,1,40,Catalog + Slots,Eating,Eating,Eating,Eating,Alimentaire,Alimentaire,Alimentaire,Alimentaire
-PRO_2,prodizshop,Getränke und Spirituosen,Getränke und Spirituosen,Getränke und Spirituosen,Getränke und Spirituosen,1,1,1,1,0,1,20,Catalog + Slots,Beverage & Spirits,Beverage & Spirits,Beverage & Spirits,Beverage & Spirits,Boisson et Spiritueux,Boisson & Spiritueux,Boisson & Spiritueux,Boisson et Spiritueux
-PRO_3,prodizshop,Verbrauchsmaterial,Verbrauchsmaterial,Verbrauchsmaterial,Verbrauchsmaterial,1,1,1,1,0,1,30,Catalog + Slots,Consumable,Consumable,Consumable,Consumable,Consommable,Consommable,Consommable,Consommable
 PRO_11,PRO_1,Früchte,Früchte,Früchte,Früchte,1,1,1,1,0,1,20,Catalog + Slots,Fruits,Fruits,Fruits,Fruits,Fruits,Fruits,Fruits,Fruits
 PRO_12,PRO_1,Gemüse,Gemüse,Gemüse,Gemüse,1,1,1,1,0,1,10,Catalog + Slots,Vegetables,Vegetables,Vegetables,Vegetables,Légumes,Légumes,Légumes,Légumes
 PRO_13,PRO_1,Milch- und Geflügelprodukte,Milch- und Geflügelprodukte,Milch- und Geflügelprodukte,Milch- und Geflügelprodukte,1,1,1,1,0,1,10,Catalog + Slots,Dairy and poultry products,Dairy and poultry products,Dairy and poultry products,Dairy and poultry products,Produits laitiers et avicoles,Produits laitiers et avicoles,Produits laitiers et avicoles,Produits laitiers et avicoles
@@ -10,22 +7,25 @@ PRO_14,PRO_1,Bäckerei,Bäckerei,Bäckerei,Bäckerei,1,1,1,1,0,1,30,Catalog + Sl
 PRO_15,PRO_1,Lebensmittelgeschäft,Lebensmittelgeschäft,Lebensmittelgeschäft,Lebensmittelgeschäft,1,1,1,1,0,1,20,Catalog + Slots,Grocery,Grocery,Grocery,Grocery,Epicerie,Epicerie,Epicerie,Epicerie
 PRO_16,PRO_1,Metzgerei,Metzgerei,Metzgerei,Metzgerei,1,1,1,1,0,1,10,Catalog + Slots,Butcher's shop,Butcher's shop,Butcher's shop,Butcher's shop,Boucherie,Boucherie,Boucherie,Boucherie
 PRO_17,PRO_1,Fisch-laden,Fisch-laden,Fisch-laden,Fisch-laden,1,1,1,1,0,1,30,Catalog + Slots,Fish shop,Fish shop,Fish shop,Fish shop,Poissonerie,Poissonerie,Poissonerie,Poissonerie
+PRO_2,prodizshop,Getränke und Spirituosen,Getränke und Spirituosen,Getränke und Spirituosen,Getränke und Spirituosen,1,1,1,1,0,1,20,Catalog + Slots,Beverage & Spirits,Beverage & Spirits,Beverage & Spirits,Beverage & Spirits,Boisson et Spiritueux,Boisson & Spiritueux,Boisson & Spiritueux,Boisson et Spiritueux
 PRO_21,PRO_2,Bier,Bier,Bier,Bier,1,1,1,1,0,1,30,Catalog + Slots,Beer,Beer,Beer,Beer,Bière,Bière,Bière,Bière
-PRO_22,PRO_2,Wein,Wein,Wein,Wein,1,1,1,1,0,1,30,Catalog + Slots,Wine,Wine,Wine,Wine,Vin,Vin,Vin,Vin
-PRO_23,PRO_2,Spirituosen,Spirituosen,Spirituosen,Spirituosen,1,1,1,1,0,1,20,Catalog + Slots,Spirits,Spirits,Spirits,Spirits,Spiritueux,Spiritueux,Spiritueux,Spiritueux
-PRO_24,PRO_2,Saft,Saft,Saft,Saft,1,1,1,1,0,1,10,Catalog + Slots,Fruits Juice,Fruits Juice,Fruits Juice,Fruits Juice,Jus de fruits,Jus de fruits,Jus de fruits,Jus de fruits
-PRO_25,PRO_2,Alkoholfreie Getränke,alkoholfreie Getränke,alkoholfreie Getränke,alkoholfreie Getränke,1,1,1,1,0,1,20,Catalog + Slots,Soda,Soda,Soda,Soda,Boisson gazeuse,Boisson gazeuse,Boisson gazeuse,Boisson gazeuse
 PRO_211,PRO_21,Bernstein,Bernstein,Bernstein,Bernstein,1,1,1,1,0,1,30,Catalog + Slots,Amber,Amber,Amber,Amber,Ambrée,Ambrée,Ambrée,Ambrée
 PRO_212,PRO_21,Blondes,Blondes,Blondes,Blondes,1,1,1,1,0,1,20,Catalog + Slots,Blond,Blond,Blond,Blond,Blonde,Blonde,Blonde,Blonde
 PRO_213,PRO_21,Weiß,Weiß,Weiß,Weiß,1,1,1,1,0,1,10,Catalog + Slots,White,White,White,White,Blanche,Blanche,Blanche,Blanche
 PRO_214,PRO_21,IPA,IPA,IPA,IPA,1,1,1,1,0,1,10,Catalog + Slots,IPA,IPA,IPA,IPA,IPA,IPA,IPA,IPA
+PRO_22,PRO_2,Wein,Wein,Wein,Wein,1,1,1,1,0,1,30,Catalog + Slots,Wine,Wine,Wine,Wine,Vin,Vin,Vin,Vin
 PRO_221,PRO_22,Rot,Rot,Rot,Rot,1,1,1,1,0,1,20,Catalog + Slots,Red,Red,Red,Red,Rouge,Rouge,Rouge,Rouge
-PRO_222,PRO_22,Weiß,Weiß,Weiß,Weiß,1,1,1,1,0,1,10,Catalog + Slots,White,White,White,White,Blanc,Blanc,Blanc,Blanc
+PRO_222,PRO_22,Verbrauchsmaterial,Weiß,Weiß,Weiß,1,1,1,1,0,1,10,Catalog + Slots,White,White,White,White,Blanc,Blanc,Blanc,Blanc
 PRO_223,PRO_22,Rosé,Rosé,Rosé,Rosé,1,1,1,1,0,1,20,Catalog + Slots,Rosé,Rosé,Rosé,Rosé,Rosé,Rosé,Rosé,Rosé
+PRO_23,PRO_2,Spirituosen,Spirituosen,Spirituosen,Spirituosen,1,1,1,1,0,1,20,Catalog + Slots,Spirits,Spirits,Spirits,Spirits,Spiritueux,Spiritueux,Spiritueux,Spiritueux
+PRO_24,PRO_2,Saft,Saft,Saft,Saft,1,1,1,1,0,1,10,Catalog + Slots,Fruits Juice,Fruits Juice,Fruits Juice,Fruits Juice,Jus de fruits,Jus de fruits,Jus de fruits,Jus de fruits
 PRO_241,PRO_24,Orange,Orange,Orange,Orange,1,1,1,1,0,1,40,Catalog + Slots,Orange,Orange,Orange,Orange,Orange,Orange,Orange,Orange
 PRO_242,PRO_24,Zitrone,Zitrone,Zitrone,Zitrone,1,1,1,1,0,1,30,Catalog + Slots,Lemon,Lemon,Lemon,Lemon,Citron,Citron,Citron,Citron
-PRO_243,PRO_24,ACE,ACE,ACE,ACE,1,1,1,1,0,1,20,Catalog + Slots,ACE,ACE,ACE,ACE,ACE,ACE,ACE,ACE
+PRO_243,PRO_24,ACE,ACE,ACE,ACE,1,1,1,1,0,1,20,Catalog + Slots,ACE,ACE,ACE,ACE,ACE,ACE,meta_description.de_DE,ACE
+PRO_25,PRO_2,Alkoholfreie Getränke,alkoholfreie Getränke,alkoholfreie Getränke,alkoholfreie Getränke,1,1,1,1,0,1,20,Catalog + Slots,Soda,Soda,Soda,Soda,Boisson gazeuse,Boisson gazeuse,Boisson gazeuse,Boisson gazeuse
+PRO_3,prodizshop,Verbrauchsmaterial,Verbrauchsmaterial,Verbrauchsmaterial,Verbrauchsmaterial,1,1,1,1,0,1,30,Catalog + Slots,Consumable,Consumable,Consumable,Consumable,Consommable,Consommable,Consommable,Consommable
 PRO_31,PRO_3,Seifenfabrik,Seifenfabrik,Seifenfabrik,Seifenfabrik,1,1,1,1,0,1,10,Catalog + Slots,Soap factory,Soap factory,Soap factory,Soap factory,Savonnerie,Savonnerie,Savonnerie,Savonnerie
 PRO_32,PRO_3,Willkommenes Produkt,Willkommenes Produkt,Willkommenes Produkt,Willkommenes Produkt,1,1,1,1,0,1,30,Catalog + Slots,Welcome Product,Welcome Product,Welcome Product,Welcome Product,Produit d'accueil,Produit d'accueil,Produit d'accueil,Produit d'accueil
 PRO_33,PRO_3,Verpackung,Verpackung,Verpackung,Verpackung,1,1,1,1,0,1,20,Catalog + Slots,Packaging,Packaging,Packaging,Packaging,Emballage,Emballage,Emballage,Emballage
 PRO_34,PRO_3,Pflegeprodukte,Pflegeprodukte,Pflegeprodukte,Pflegeprodukte,1,1,1,1,0,1,10,Catalog + Slots,Care products,Care products,Care products,Care products,Produit d'entretien,Produit d'entretien,Produit d'entretien,Produit d'entretien
+prodizshop,,Prodizshop,Prodizshop,Prodizshop,Prodizshop,1,1,1,0,1,1,,Catalog (default),Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop,Prodizshop
