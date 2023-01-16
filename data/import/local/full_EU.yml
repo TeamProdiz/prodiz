@@ -210,6 +210,7 @@ actions:
 #6. Navigation Setup import
   - data_entity: navigation-node
     source: data/import/common/common/navigation_node.csv
+  # Not usefull
 
 #7. B2B Setup import
   - data_entity: company
@@ -320,8 +321,10 @@ actions:
     source: data/import/common/AT/shared_cart.csv
   - data_entity: quote-request
     source: data/import/common/common/quote_request.csv
+  # quote-request doesn't work
   - data_entity: quote-request-version
     source: data/import/common/common/quote_request_version.csv
+  # quote-request-version doesn't work
 
 #8 Marketplace
   - data_entity: merchant-user
