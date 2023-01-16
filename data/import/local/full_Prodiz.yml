@@ -96,5 +96,6 @@ actions:
   - data_entity: merchant-profile-address
     source: data/import/common/common/marketplace/merchant_profile_address.csv
 
-  - data_entity: quote-request-version
-    source: data/import/common/common/quote_request_version.csv
+  #8 Marketplace
+  - data_entity: merchant-user
+    source: data/import/common/common/marketplace/merchant_user.csv
