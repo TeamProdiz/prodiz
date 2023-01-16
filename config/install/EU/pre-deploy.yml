@@ -34,6 +34,6 @@ sections:
     
     demodata:
         import-eu-region-demodata:
-            command: 'vendor/bin/console data:import --config=data/import/local/full_Prodiz.yml'
+            command: 'vendor/bin/console data:import --config=data/import/production/full_EU.yml'
             stores:
                 - DE
