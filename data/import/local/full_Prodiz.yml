@@ -96,5 +96,5 @@ actions:
   - data_entity: merchant-profile-address
     source: data/import/common/common/marketplace/merchant_profile_address.csv
 
-  - data_entity: shopping-list
-    source: data/import/common/common/shopping_list.csv
+  - data_entity: shopping-list-item
+    source: data/import/common/common/shopping_list_item.csv
