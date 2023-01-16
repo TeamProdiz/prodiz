@@ -97,5 +97,5 @@ actions:
     source: data/import/common/common/marketplace/merchant_profile_address.csv
 
   #8 Marketplace
-  - data_entity: merchant-user
-    source: data/import/common/common/marketplace/merchant_user.csv
+  - data_entity: merchant-profile
+    source: data/import/common/common/marketplace/merchant_profile.csv
