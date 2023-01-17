@@ -329,24 +329,34 @@ actions:
 #8 Marketplace
   - data_entity: merchant-user
     source: data/import/common/common/marketplace/merchant_user.csv
+  # merchant-user doesn't work
   - data_entity: merchant-profile
     source: data/import/common/common/marketplace/merchant_profile.csv
+  # merchant-profil doesn't work
   - data_entity: merchant-profile-address
     source: data/import/common/common/marketplace/merchant_profile_address.csv
+  # merchant-profile-address doesn't work
   - data_entity: merchant-opening-hours-date-schedule
     source: data/import/common/common/marketplace/merchant_open_hours_date_schedule.csv
+  # merchant-opening-hours-date-schedule doesn't work
   - data_entity: merchant-opening-hours-weekday-schedule
     source: data/import/common/common/marketplace/merchant_open_hours_week_day_schedule.csv
+  # merchant-opening-hours-weekday-schedule doesn't work
   - data_entity: merchant-category
     source: data/import/common/common/marketplace/merchant_category.csv
+  # merchant-category doesn't work
   - data_entity: merchant-oms-process
     source: data/import/common/common/marketplace/merchant_oms_process.csv
+  # merchant-oms-process doesn't work
   - data_entity: merchant-product-option-group
     source: data/import/common/common/marketplace/merchant_product_option_group.csv
+  # merchant-product-option-group doesn't work
   - data_entity: merchant-product
     source: data/import/common/common/marketplace/merchant_product.csv
+  # merchant-product doesn't work
   - data_entity: product-offer-shopping-list-item
     source: data/import/common/common/marketplace/product_offer_shopping_list_item.csv
+  # product-offer-shopping-list-item doesn't work
   - data_entity: merchant-product-approval-status-default
     source: data/import/common/common/marketplace/merchant_product_approval_status_default.csv
 
