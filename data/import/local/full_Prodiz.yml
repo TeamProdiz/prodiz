@@ -60,6 +60,10 @@ actions:
   - data_entity: cms-block-store
     source: data/import/common/DE/cms_block_store.csv
   
+  #6. Navigation Setup import
+  - data_entity: navigation-node
+    source: data/import/common/common/navigation_node.csv
+
   #7. B2B Setup import
   - data_entity: company
     source : data/import/common/common/company.csv
@@ -88,6 +92,7 @@ actions:
   - data_entity: stock-store
     source: data/import/common/DE/marketplace/warehouse_store.csv
   - data_entity: merchant-profile
-    source: data/import/common/common/marketplace/merchant_profile.csv0
+    source: data/import/common/common/marketplace/merchant_profile.csv
+
   - data_entity: merchant-profile-address
     source: data/import/common/common/marketplace/merchant_profile_address.csv
