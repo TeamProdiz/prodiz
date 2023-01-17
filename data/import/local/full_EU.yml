@@ -359,11 +359,14 @@ actions:
   # product-offer-shopping-list-item doesn't work
   - data_entity: merchant-product-approval-status-default
     source: data/import/common/common/marketplace/merchant_product_approval_status_default.csv
+  # merchant-product-approval-status-default doesn't work
 
 #9. Miscellaneous Setup import
   - data_entity: comment
     source: data/import/common/DE/comment.csv
+  # comment doesn't work
   - data_entity: comment
     source: data/import/common/AT/comment.csv
   - data_entity: mime-type
     source: data/import/common/common/mime_type.csv
+  
