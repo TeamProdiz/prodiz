@@ -91,6 +91,3 @@ actions:
     source: data/import/common/common/marketplace/merchant_profile.csv0
   - data_entity: merchant-profile-address
     source: data/import/common/common/marketplace/merchant_profile_address.csv
-
-  - data_entity: comment
-    source: data/import/common/DE/comment.csv
