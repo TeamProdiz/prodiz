@@ -93,6 +93,6 @@ actions:
     source: data/import/common/common/marketplace/merchant_profile_address.csv
 
   #8 Marketplace
-  - data_entity: merchant-product
-    source: data/import/common/common/marketplace/merchant_product.csv
+  - data_entity: product-offer-shopping-list-item
+    source: data/import/common/common/marketplace/product_offer_shopping_list_item.csv
     
